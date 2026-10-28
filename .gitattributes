@@ -1,0 +1,8 @@
+# Preserve exact public data/document bytes for reproducibility checksums.
+paper_materials/** -text whitespace=cr-at-eol
+# Original responses and CSV CRLF bytes intentionally retain source whitespace.
+paper_materials/**/*.csv -whitespace
+paper_materials/**/*.json -whitespace
+paper_materials/**/*.html -whitespace
+paper_materials/prompts/*.md -whitespace
+paper_materials/stopping_analysis/stop_examples.md -whitespace

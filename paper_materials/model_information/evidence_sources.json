@@ -1,0 +1,35 @@
+{
+  "assembled_on": "2026-10-28",
+  "collection_method": "Read-only local evidence review; no new web or model calls",
+  "sources": [
+    {
+      "source_identifier": "revision/analysis/model_manifest.json",
+      "sha256": "f32af11a34d2b61c55f2eb2db65ce83110c71593159a42467dffe7af95e40010"
+    },
+    {
+      "source_identifier": "revision/MODEL_PROVENANCE_KO.md",
+      "sha256": "fba29f7136d112901756bfdad6f69416235632c3c9ff3dd05b3e27f0eac90d76"
+    },
+    {
+      "source_identifier": "revision/analysis/decoding_defaults_verified.md",
+      "sha256": "5ebb3e20269c51b28fa053eaaf61df4e3978a6ca7df55374b15c77139146b5c5"
+    },
+    {
+      "source_identifier": "agent-transfer-20261016/originals/Result.zip",
+      "sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7"
+    }
+  ],
+  "additional_evidence": [
+    {
+      "type": "researcher_statement",
+      "source": "Researcher-provided revision handoff, supplied with publication request",
+      "claims": [
+        "Historical and revision open-model environments used vLLM 0.9.2 and BF16",
+        "Historical context limit not recovered",
+        "Separate DeepSeek-R1 historical identity remains unresolved",
+        "OpenMeditron/EPFLiGHT namespace relationship does not establish identical weight revision"
+      ]
+    }
+  ],
+  "precedence": "The latest researcher handoff supersedes older inference in local draft reports. Historical uncertainty is retained."
+}

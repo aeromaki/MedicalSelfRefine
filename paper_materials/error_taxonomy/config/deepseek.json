@@ -1,0 +1,121 @@
+{
+  "runner_version": "openrouter-2",
+  "status": "complete_with_issues",
+  "provider": "openrouter",
+  "requested_model": "deepseek/deepseek-v4.1-flash-1017",
+  "base_url": "https://openrouter.ai/api/v1",
+  "requested_provider": "DeepInfra",
+  "request_settings": {
+    "max_tokens": 65536,
+    "extra_body": {
+      "reasoning": {
+        "effort": "high"
+      },
+      "provider": {
+        "only": [
+          "deepinfra/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "data_collection": "deny"
+      }
+    }
+  },
+  "requested_inference_provider": "deepinfra/fp8",
+  "endpoint_quantization": "fp8",
+  "request_headers": {
+    "X-OpenRouter-Metadata": "enabled"
+  },
+  "accepted_response_models": [
+    "deepseek/deepseek-v4.1-flash-1017",
+    "deepseek/deepseek-v4.1-flash-20261017"
+  ],
+  "sampling": "provider defaults",
+  "output_budget_includes_reasoning": true,
+  "source": "agent-transfer-20261016/originals/Result.zip",
+  "source_sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7",
+  "prompt_sha256": "203b97f8e025f7ecb13b25aade5510ed716c6ebd414bbaf92f8ed4d20ba84b7c",
+  "inputs_sha256": "8d46431171bffb4db42c9ef815b6df4e358776baae2b7d0693602190693067f2",
+  "input_counts": {
+    "label_2i_deepseek-r1-distill-70b.json": [
+      55,
+      57,
+      51
+    ],
+    "label_2i_deepseek-r1.json": [
+      36,
+      19,
+      1
+    ],
+    "label_2i_gpt-4o-mini.json": [
+      81,
+      30,
+      14
+    ],
+    "label_2i_gpt-4o.json": [
+      38,
+      12,
+      5
+    ],
+    "label_2i_huatuogpt-o1-70b.json": [
+      46,
+      53,
+      52
+    ],
+    "label_2i_huatuogpt-o1-8b.json": [
+      90,
+      92,
+      86
+    ],
+    "label_2i_llama-3.1-70b.json": [
+      84,
+      55,
+      35
+    ],
+    "label_2i_llama-3.1-8b.json": [
+      129,
+      50,
+      20
+    ],
+    "label_2i_meditron3-70b.json": [
+      81,
+      107,
+      153
+    ],
+    "label_2i_meditron3-8b.json": [
+      136,
+      171,
+      204
+    ],
+    "label_2i_mistral-7b.json": [
+      174,
+      221,
+      234
+    ],
+    "label_2i_qwen2.5-72b.json": [
+      72,
+      41,
+      26
+    ],
+    "label_2i_qwen2.5-7b.json": [
+      133,
+      181,
+      184
+    ]
+  },
+  "planned_calls": 3309,
+  "concurrency": 1,
+  "started_at": "2026-10-21T07:11:10.481344+00:00",
+  "credential_variable": "DEEPSEEK_API_KEY",
+  "resumed_at": "2026-10-26T08:30:16.287566+00:00",
+  "completed_calls": 3309,
+  "classified_count": 3231,
+  "unclassified_count": 78,
+  "response_models": [
+    "deepseek/deepseek-v4.1-flash-1017"
+  ],
+  "response_providers": [
+    "DeepInfra"
+  ],
+  "finished_at": "2026-10-26T09:04:52.262431+00:00"
+}

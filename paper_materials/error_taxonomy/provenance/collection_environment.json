@@ -1,0 +1,11 @@
+{
+  "collected_at_utc": "2026-10-28T02:17:53.240536+00:00",
+  "python": "3.14.4",
+  "platform": "Windows",
+  "scope": "Packaging-time environment only; historical dependency lock not found.",
+  "offline_analysis_dependencies": "Python standard library only",
+  "installed_api_packages": {
+    "openai": "2.51.0",
+    "python-dotenv": "1.2.2"
+  }
+}

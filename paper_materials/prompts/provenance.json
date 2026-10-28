@@ -1,0 +1,18 @@
+{
+  "source_archive": "MedicalSelfRefine_public_materials_20261028.zip",
+  "source_member": "01_FULL_PROMPTS/full_prompts.json",
+  "source_sha256": "c9673d288bf211a21b3d75ca28b148772c18b8d0421454be2d24242850659452",
+  "published_json_byte_identical": true,
+  "example_counts": {
+    "solver": 8,
+    "critic": 2,
+    "refiner": 2,
+    "extractor": 5
+  },
+  "role_request_message_counts": {
+    "solver": 18,
+    "critic": 6,
+    "refiner": 6,
+    "extractor": 12
+  }
+}

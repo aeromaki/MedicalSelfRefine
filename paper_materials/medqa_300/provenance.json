@@ -1,0 +1,21 @@
+{
+  "repo": "bigbio/med_qa",
+  "config": "med_qa_en_source",
+  "revision_checked_now": "484a6c066fe8e75c83edea0c88b5169316714fcd",
+  "historical_dataset_revision_known": false,
+  "split": "test",
+  "selection": "test[0:300]",
+  "full_test_rows": 1273,
+  "sources": [
+    {
+      "url": "https://huggingface.co/datasets/bigbio/med_qa/resolve/484a6c066fe8e75c83edea0c88b5169316714fcd/med_qa_en_source/test-00000-of-00001.parquet",
+      "sha256": "3233cb669a7d56500c4ec8609a0b73c9cb6f123d46983e59bcece1f34d26728f"
+    }
+  ],
+  "exact_items_labels_order_match": true,
+  "question_source_package": "MedicalSelfRefine_public_materials_20261028.zip",
+  "question_source_member": "03_MEDQA_ITEMS/medqa_test_000_299.json",
+  "question_source_sha256": "7e937d3d3915d6dff08e74357892874562c82bcd954f4db32435e946f720ea88",
+  "publication_transform": "Added question_id Q001–Q300; preserved question/options/answer/order/item hash.",
+  "historical_commit_claim": "The recorded revision was checked during revision work; the historical execution dataset revision remains unknown."
+}

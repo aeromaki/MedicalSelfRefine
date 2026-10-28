@@ -1,0 +1,136 @@
+{
+  "collected_on": "2026-10-28",
+  "source_archive_sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7",
+  "full_taxonomy_prompt_sha256": "203b97f8e025f7ecb13b25aade5510ed716c6ebd414bbaf92f8ed4d20ba84b7c",
+  "files": [
+    {
+      "file": "data/per_case_comparison.csv",
+      "prepared_source_sha256": "6f66378ba375d4df4ededbedfddf99b787fb958fdf41dd8e7f35bcac92cd9e67",
+      "release_sha256": "6f66378ba375d4df4ededbedfddf99b787fb958fdf41dd8e7f35bcac92cd9e67",
+      "handling": "byte-identical",
+      "original_source": "vis/experiments/gpt_deepseek_20261021/deepseek_final_comparison_20261026/per_case_comparison.csv",
+      "original_source_sha256": "6f66378ba375d4df4ededbedfddf99b787fb958fdf41dd8e7f35bcac92cd9e67"
+    },
+    {
+      "file": "data/record_audit.csv",
+      "prepared_source_sha256": "ae91322de5713c732956da9869e1a62a8fd8f96fad301dd681ff3debb102baa4",
+      "release_sha256": "ae91322de5713c732956da9869e1a62a8fd8f96fad301dd681ff3debb102baa4",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "data/input_audit.csv",
+      "prepared_source_sha256": "a56f06189ec5865dd7383cd3c3850378680dcf165f12e7cfd7638ed0f4d66431",
+      "release_sha256": "a56f06189ec5865dd7383cd3c3850378680dcf165f12e7cfd7638ed0f4d66431",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "data/deepseek_unclassified.csv",
+      "prepared_source_sha256": "c206511b3a948da764354431eaa1410168330643225165b9c203ee89d40152ba",
+      "release_sha256": "c206511b3a948da764354431eaa1410168330643225165b9c203ee89d40152ba",
+      "handling": "byte-identical",
+      "original_source": "vis/experiments/gpt_deepseek_20261021/deepseek_final_comparison_20261026/deepseek_unclassified_audit.json",
+      "original_source_sha256": "c6ecfc44b5013fbcac8c948ed8ce64d22fc5f92300a7845e31fb28b7dd7ab25f"
+    },
+    {
+      "file": "results/summary.json",
+      "prepared_source_sha256": "1645871b7070c73b57f231c71e7f348ad2958338a88a3e070df0427494fdca14",
+      "release_sha256": "1645871b7070c73b57f231c71e7f348ad2958338a88a3e070df0427494fdca14",
+      "handling": "byte-identical",
+      "original_source": "vis/experiments/gpt_deepseek_20261021/deepseek_final_comparison_20261026/summary.json",
+      "original_source_sha256": "fc53afef23e6e639eec57367f2876d75740371f0bb580d547aef54cce52c3e6d"
+    },
+    {
+      "file": "results/agreement_tables.csv",
+      "prepared_source_sha256": "27b7f732558f4e2622e98b20d6af90f28ff269c18729f27158f20c3b6f7ba4b7",
+      "release_sha256": "27b7f732558f4e2622e98b20d6af90f28ff269c18729f27158f20c3b6f7ba4b7",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "config/claude.json",
+      "prepared_source_sha256": "531fea8407208ded99fc49d248673dd1a0e2669b8b0c54b476439f17baf77378",
+      "release_sha256": "531fea8407208ded99fc49d248673dd1a0e2669b8b0c54b476439f17baf77378",
+      "handling": "byte-identical",
+      "original_source": "vis/results/taxonomy_claude-sonnet-5-5_20261020T024906417660Z/manifest.json",
+      "original_source_sha256": "014dbeaf616cd51b688beaa5918489e91c65c39fc93cc735e3e263b45d1ff607"
+    },
+    {
+      "file": "config/gpt_repeat1.json",
+      "prepared_source_sha256": "439ea61023b2300e35043c5c79b8b5664f66edbf3ae489009cca76eb90448e2d",
+      "release_sha256": "439ea61023b2300e35043c5c79b8b5664f66edbf3ae489009cca76eb90448e2d",
+      "handling": "byte-identical",
+      "original_source": "vis/results/taxonomy_openai_gpt-4o-mini_20261021T062700_full/manifest.json",
+      "original_source_sha256": "1aece92c5fc08c41fbb8103f6d969ce18edc0640420e190605d45739de098ff6"
+    },
+    {
+      "file": "config/gpt_repeat2.json",
+      "prepared_source_sha256": "567863255ba2f266dea12d6e3346ecce44990df4b538f7e96d71016214bf48a4",
+      "release_sha256": "567863255ba2f266dea12d6e3346ecce44990df4b538f7e96d71016214bf48a4",
+      "handling": "byte-identical",
+      "original_source": "vis/results/taxonomy_openai_gpt-4o-mini_repeat2_20261021T075600419Z/manifest.json",
+      "original_source_sha256": "6ca525548ee3b11e9ebaceae8faa32177830812be195219b9fd9688d6481275f"
+    },
+    {
+      "file": "config/deepseek.json",
+      "prepared_source_sha256": "3ceed0793fe405303ba9207ad67b59d53103f42b61c6dce84b97893278056f42",
+      "release_sha256": "3ceed0793fe405303ba9207ad67b59d53103f42b61c6dce84b97893278056f42",
+      "handling": "byte-identical",
+      "original_source": "vis/results/taxonomy_openrouter_deepinfra_fp8_deepseek-v4.1-flash-1017_20261021T071108326068Z/manifest.json",
+      "original_source_sha256": "57a6a211ebac888ae0185489b6d921c99cb7ee2887d6f1b7815ba2c7abc32c88"
+    },
+    {
+      "file": "prompts/instructions_only.json",
+      "prepared_source_sha256": "4cc08d2c3e3d9b1bd6c329b77b8a29e2234764957cbb597ac2c79b9b4c78b34a",
+      "release_sha256": "1712e469502e63c76915b6116718932ebcc8aaa674418e324f87c33548c0ad43",
+      "handling": "publication-boundary wording and relative links updated; statistical content unchanged",
+      "original_source": "vis/visbox/autolabel/prompt.json",
+      "original_source_sha256": "203b97f8e025f7ecb13b25aade5510ed716c6ebd414bbaf92f8ed4d20ba84b7c"
+    },
+    {
+      "file": "prompts/taxonomy.csv",
+      "prepared_source_sha256": "e54b3c924ef55b5eb2873798ac7195fc4e1d6bf05436e6628144cdf0e98d6c95",
+      "release_sha256": "e54b3c924ef55b5eb2873798ac7195fc4e1d6bf05436e6628144cdf0e98d6c95",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "code/recompute_agreement.py",
+      "prepared_source_sha256": "1870b12e854c66ca139db089bf0a34184e142dc5c16c4a96fdd46dce244019b3",
+      "release_sha256": "1870b12e854c66ca139db089bf0a34184e142dc5c16c4a96fdd46dce244019b3",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "code/test_recompute_agreement.py",
+      "prepared_source_sha256": "88e0f78ef9d64f61c6867d6579b1f820eff0977fb8302148cc1448996e799fca",
+      "release_sha256": "88e0f78ef9d64f61c6867d6579b1f820eff0977fb8302148cc1448996e799fca",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "docs/METHODS.md",
+      "prepared_source_sha256": "d362b45d7d94a65194ce4dfcc7d1bfc539898e895262e217b54bbf5828080b34",
+      "release_sha256": "0957e0593844648a1bbca78f0e95903bcf5efda92ed6258e368270b2486dad62",
+      "handling": "publication-boundary wording and relative links updated; statistical content unchanged"
+    },
+    {
+      "file": "docs/LIMITATIONS.md",
+      "prepared_source_sha256": "d373c6557556c12d38182fb80674220f33405e1c75b917017bf4c88ad1e58b0f",
+      "release_sha256": "73ecdd036d11e2493f59fba57facd50d32bae44e8c9cc5a24d3417a6dce8613c",
+      "handling": "publication-boundary wording and relative links updated; statistical content unchanged"
+    },
+    {
+      "file": "docs/DATA_DICTIONARY.md",
+      "prepared_source_sha256": "edbb6b880f614c3d4988c31a0d3c38b9965bc1ecac7a52d7895f911c832a35fb",
+      "release_sha256": "edbb6b880f614c3d4988c31a0d3c38b9965bc1ecac7a52d7895f911c832a35fb",
+      "handling": "byte-identical"
+    },
+    {
+      "file": "provenance/collection_environment.json",
+      "prepared_source_sha256": "61e688fcb1a0de1ee9aef589400389bd5e5b3554f1db0589146d6fb838eb71e8",
+      "release_sha256": "61e688fcb1a0de1ee9aef589400389bd5e5b3554f1db0589146d6fb838eb71e8",
+      "handling": "byte-identical"
+    }
+  ],
+  "notes": [
+    "Original source paths are identifiers; this subfolder contains derived label evidence, not full journals.",
+    "Human workbook, human ratings, original baseline inventory, API runner snapshots and runtime logs are not shipped.",
+    "Offline code is newly written for published CSV statistics, not claimed as historical execution-time source."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "verified",
+  "historical_models": 13,
+  "questions": 300,
+  "historical_case_stage_rows": 11700,
+  "accuracy_rows": 39,
+  "failed_generation_records": 26,
+  "STOP_model_stage_rows": 26,
+  "STOP_totals": {
+    "observed": 6559,
+    "legacy": 1579,
+    "strict": 1408,
+    "relaxed": 1416,
+    "both": 1408,
+    "legacy_only": 171,
+    "relaxed_only": 8
+  },
+  "review_records_matched_to_responses": 171,
+  "prompt_examples": {
+    "solver": 8,
+    "critic": 2,
+    "refiner": 2,
+    "extractor": 5
+  },
+  "model_catalog_rows": 13,
+  "taxonomy": {
+    "status": "verified",
+    "total": 3309,
+    "valid_counts": {
+      "deepseek": 3231,
+      "original_gpt": 3174,
+      "claude": 3285,
+      "gpt_repeat1": 3165,
+      "gpt_repeat2": 3184
+    },
+    "common_all_five_n": 2908,
+    "pairwise_comparisons_verified": 10,
+    "common_comparisons_verified": 10,
+    "raw_saved_comparisons_verified": 10,
+    "audit_records_verified": 16545,
+    "previously_recovered_labels": {
+      "original_gpt": 6,
+      "claude": 72
+    },
+    "absolute_float_tolerance": 1e-12
+  },
+  "scope": "Offline file/table consistency; no model generation, remote dataset request, or clinical adjudication."
+}

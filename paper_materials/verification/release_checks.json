@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "original_baseline_files_unchanged": 67,
+  "source_archives_sha256_verified": 3,
+  "taxonomy_unit_tests_passed": 19,
+  "workbook_formulas_without_cached_errors": 178,
+  "known_credential_and_user_path_pattern_hits": 0,
+  "scan_scope": "All new publication text files; not a universal secret detector.",
+  "existing_taxonomy_prompt_git_blob_sha256": "203b97f8e025f7ecb13b25aade5510ed716c6ebd414bbaf92f8ed4d20ba84b7c",
+  "experiment_code_files_changed": 0
+}

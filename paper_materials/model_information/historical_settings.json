@@ -1,0 +1,43 @@
+{
+  "scope": "Historical MedQA self-refinement, not the later taxonomy reclassification runs",
+  "evidence_type": "reconstructed_client_request_construction",
+  "qualification": "Conditional on the supplied source and pinned langchain-openai version being used without unrecorded overrides. Effective server behavior is not recovered by this analysis.",
+  "client": {
+    "library": "langchain-openai",
+    "pinned_version": "0.2.4",
+    "solver_critic_refiner": {
+      "temperature": 0.7,
+      "top_p": "OMITTED",
+      "seed": "OMITTED",
+      "max_tokens": "OMITTED"
+    },
+    "auxiliary_answer_extractor": {
+      "temperature": 0
+    }
+  },
+  "server": {
+    "historical_context_limit_max_model_len": "UNKNOWN",
+    "historical_effective_output_limit": "UNKNOWN",
+    "effective_backend_top_p": "UNKNOWN",
+    "effective_backend_seed": "UNKNOWN"
+  },
+  "researcher_confirmed_open_model_environment": {
+    "vllm_version": "0.9.2",
+    "dtype": "BF16",
+    "applies_to": "researcher-reported open-model execution environment; not GPT API internals",
+    "evidence_type": "researcher_statement",
+    "historical_runtime_logs_recovered": false
+  },
+  "quantization": {
+    "additional_quantization": "researcher recollection: none added",
+    "native_weight_quantization_config": "UNVERIFIED"
+  },
+  "dataset_selection": {
+    "split": "test",
+    "zero_based_start_inclusive": 0,
+    "zero_based_end_exclusive": 300,
+    "selection": "first 300 in order",
+    "random_item_selection_seed": "N/A: consecutive selection; distinct from generation seed"
+  },
+  "evidence": "decoding_evidence.md; archived_config_evidence.json; evidence_sources.json"
+}

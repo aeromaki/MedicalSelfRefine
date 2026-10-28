@@ -1,0 +1,54 @@
+{
+  "deepseek-r1-distill-70b": {
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "deepseek-r1": {
+    "model": "REPLACE_WITH_CONFIRMED_HISTORICAL_ID",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "gpt-4o-mini": {
+    "model": "gpt-4o-mini",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "gpt-4o": {
+    "model": "gpt-4o",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "huatuogpt-o1-70b": {
+    "model": "FreedomIntelligence/HuatuoGPT-o1-70B",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "huatuogpt-o1-8b": {
+    "model": "FreedomIntelligence/HuatuoGPT-o1-8B",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "llama-3.1-70b": {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "llama-3.1-8b": {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "meditron3-70b": {
+    "model": "OpenMeditron/Meditron3-70B",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "meditron3-8b": {
+    "model": "OpenMeditron/Meditron3-8B",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "mistral-7b": {
+    "model": "mistralai/Mistral-7B-Instruct-v0.1",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "qwen2.5-72b": {
+    "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  },
+  "qwen2.5-7b": {
+    "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+    "base_url": "https://configure-your-authorized-endpoint.invalid/v1"
+  }
+}

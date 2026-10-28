@@ -1,0 +1,87 @@
+{
+  "status": "complete_with_issues",
+  "provider": "anthropic",
+  "requested_model": "claude-sonnet-5-5",
+  "base_url": "https://api.anthropic.com/v1/",
+  "max_tokens": 8192,
+  "sampling": "provider defaults",
+  "thinking": "provider defaults",
+  "source": "agent-transfer-20261016/originals/Result.zip",
+  "source_sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7",
+  "prompt_sha256": "203b97f8e025f7ecb13b25aade5510ed716c6ebd414bbaf92f8ed4d20ba84b7c",
+  "input_counts": {
+    "label_2i_deepseek-r1-distill-70b.json": [
+      55,
+      57,
+      51
+    ],
+    "label_2i_deepseek-r1.json": [
+      36,
+      19,
+      1
+    ],
+    "label_2i_gpt-4o-mini.json": [
+      81,
+      30,
+      14
+    ],
+    "label_2i_gpt-4o.json": [
+      38,
+      12,
+      5
+    ],
+    "label_2i_huatuogpt-o1-70b.json": [
+      46,
+      53,
+      52
+    ],
+    "label_2i_huatuogpt-o1-8b.json": [
+      90,
+      92,
+      86
+    ],
+    "label_2i_llama-3.1-70b.json": [
+      84,
+      55,
+      35
+    ],
+    "label_2i_llama-3.1-8b.json": [
+      129,
+      50,
+      20
+    ],
+    "label_2i_meditron3-70b.json": [
+      81,
+      107,
+      153
+    ],
+    "label_2i_meditron3-8b.json": [
+      136,
+      171,
+      204
+    ],
+    "label_2i_mistral-7b.json": [
+      174,
+      221,
+      234
+    ],
+    "label_2i_qwen2.5-72b.json": [
+      72,
+      41,
+      26
+    ],
+    "label_2i_qwen2.5-7b.json": [
+      133,
+      181,
+      184
+    ]
+  },
+  "planned_calls": 3309,
+  "started_at": "2026-10-20T02:49:06.437465+00:00",
+  "resumed_at": "2026-10-20T02:55:11.513869+00:00",
+  "concurrency": 4,
+  "completed_calls": 3309,
+  "unclassified_count": 96,
+  "classified_count": 3213,
+  "finished_at": "2026-10-20T04:13:38.858888+00:00"
+}

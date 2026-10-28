@@ -1,0 +1,31 @@
+{
+  "assembled_date": "2026-10-28",
+  "repository_base_commit": "cbc96ee8b20e70f4d4bf262273ae2963c032c3c7",
+  "supplied_sources": [
+    {
+      "file": "Self_refine.zip",
+      "bytes": 11946663,
+      "sha256": "8a665b0673fa7012932ce7765df3c1172ac8b3c9afe667930ed933c59ce0e0fd"
+    },
+    {
+      "file": "MedicalSelfRefine_public_materials_20261028.zip",
+      "bytes": 8044339,
+      "sha256": "495e1b8c03aa938a4fc93d4991da1be9a71e87cee09b8d69a7ce583d18935135"
+    },
+    {
+      "file": "Result.zip",
+      "bytes": 20217980,
+      "sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7"
+    }
+  ],
+  "historical_analysis_member_prefix": "Result/SelfRefine/",
+  "taxonomy_source": "Completed saved five-run comparison, final analysis 2026-10-26; see error_taxonomy/provenance/source_files.json",
+  "source_classes": {
+    "historical_experiment": "historical_results",
+    "historical_output_reanalysis": "stopping_analysis",
+    "taxonomy_reclassification": "error_taxonomy",
+    "final_comment9_generation_dispersion": "not included"
+  },
+  "human_ratings_included": false,
+  "new_model_calls": 0
+}

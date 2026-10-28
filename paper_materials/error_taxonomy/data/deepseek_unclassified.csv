@@ -1,0 +1,79 @@
+﻿file,stage,source_id,raw_block_form,prediction_is_none,strict_letter_matches_gold,letter_or_option_text_matches_gold
+label_2i_deepseek-r1-distill-70b.json,1,159,0 - none,True,True,True
+label_2i_deepseek-r1-distill-70b.json,2,31,no error,True,True,True
+label_2i_deepseek-r1-distill-70b.json,2,94,no error,True,True,True
+label_2i_deepseek-r1-distill-70b.json,2,276,none,True,True,True
+label_2i_qwen2.5-72b.json,0,132,no error,False,False,True
+label_2i_qwen2.5-72b.json,2,114,none,False,False,True
+label_2i_qwen2.5-72b.json,2,133,none,False,False,True
+label_2i_qwen2.5-7b.json,1,2,0 - none,True,True,True
+label_2i_qwen2.5-7b.json,1,31,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,48,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,57,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,58,none,True,True,True
+label_2i_qwen2.5-7b.json,1,65,none,True,True,True
+label_2i_qwen2.5-7b.json,1,67,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,79,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,80,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,86,none,True,True,True
+label_2i_qwen2.5-7b.json,1,91,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,94,none,True,True,True
+label_2i_qwen2.5-7b.json,1,97,none,True,True,True
+label_2i_qwen2.5-7b.json,1,98,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,111,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,119,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,133,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,135,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,138,none,True,True,True
+label_2i_qwen2.5-7b.json,1,159,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,161,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,168,none,True,True,True
+label_2i_qwen2.5-7b.json,1,187,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,193,none,True,True,True
+label_2i_qwen2.5-7b.json,1,200,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,210,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,214,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,224,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,233,none,True,True,True
+label_2i_qwen2.5-7b.json,1,255,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,261,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,266,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,280,no error,True,True,True
+label_2i_qwen2.5-7b.json,1,299,none,True,True,True
+label_2i_qwen2.5-7b.json,2,2,0 - none,True,True,True
+label_2i_qwen2.5-7b.json,2,4,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,41,none,True,True,True
+label_2i_qwen2.5-7b.json,2,44,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,48,none,True,True,True
+label_2i_qwen2.5-7b.json,2,57,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,58,none,True,True,True
+label_2i_qwen2.5-7b.json,2,65,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,73,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,86,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,89,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,91,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,94,none,True,True,True
+label_2i_qwen2.5-7b.json,2,97,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,98,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,109,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,111,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,119,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,133,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,135,none,True,True,True
+label_2i_qwen2.5-7b.json,2,138,(empty),True,True,True
+label_2i_qwen2.5-7b.json,2,159,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,161,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,187,none,True,True,True
+label_2i_qwen2.5-7b.json,2,195,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,197,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,200,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,224,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,230,none,True,True,True
+label_2i_qwen2.5-7b.json,2,233,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,238,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,249,none,True,True,True
+label_2i_qwen2.5-7b.json,2,255,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,261,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,266,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,272,no error,True,True,True
+label_2i_qwen2.5-7b.json,2,280,none,True,True,True

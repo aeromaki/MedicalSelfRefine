@@ -1,0 +1,177 @@
+{
+  "source": "Result.zip/Result/SelfRefine/",
+  "source_archive_sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7",
+  "supplied_archives": [
+    {
+      "file": "Self_refine.zip",
+      "sha256": "8a665b0673fa7012932ce7765df3c1172ac8b3c9afe667930ed933c59ce0e0fd"
+    },
+    {
+      "file": "MedicalSelfRefine_public_materials_20261028.zip",
+      "sha256": "495e1b8c03aa938a4fc93d4991da1be9a71e87cee09b8d69a7ce583d18935135"
+    }
+  ],
+  "files": [
+    {
+      "model": "deepseek-r1-distill-70b",
+      "public_file": "deepseek-r1-distill-70b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_deepseek-r1-distill-70b_deepseek-r1-distill-70b_deepseek-r1-distill-70b.json",
+      "source_sha256": "c9ecb24a07492a619569f0d65462c5a9bee33c7eaf7e8ff3f1ba248fbe6693e8",
+      "public_sha256": "c9ecb24a07492a619569f0d65462c5a9bee33c7eaf7e8ff3f1ba248fbe6693e8",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_deepseek-r1-distill-70b_deepseek-r1-distill-70b_deepseek-r1-distill-70b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "deepseek-r1",
+      "public_file": "deepseek-r1.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_deepseek-r1_deepseek-r1_deepseek-r1.json",
+      "source_sha256": "02f7fbccf7e085e4a60183552bd66a0a44c5348c264d5aaeeebaca964e9ad6da",
+      "public_sha256": "02f7fbccf7e085e4a60183552bd66a0a44c5348c264d5aaeeebaca964e9ad6da",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_deepseek-r1_deepseek-r1_deepseek-r1.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "public_file": "gpt-4o-mini.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_gpt-4o-mini_gpt-4o-mini_gpt-4o-mini.json",
+      "source_sha256": "065d35c7817e432009135361844e8da944584c0b9b142fa9ff5129c9ce172aa8",
+      "public_sha256": "065d35c7817e432009135361844e8da944584c0b9b142fa9ff5129c9ce172aa8",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_gpt-4o-mini_gpt-4o-mini_gpt-4o-mini.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "gpt-4o",
+      "public_file": "gpt-4o.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_gpt-4o_gpt-4o_gpt-4o.json",
+      "source_sha256": "6138e9d86e04cb7bca0f3336b0a9dbf2acddc4872fcc324fe32f1b10eec25343",
+      "public_sha256": "6138e9d86e04cb7bca0f3336b0a9dbf2acddc4872fcc324fe32f1b10eec25343",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_gpt-4o_gpt-4o_gpt-4o.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "huatuogpt-o1-70b",
+      "public_file": "huatuogpt-o1-70b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_huatuogpt-o1-70b_huatuogpt-o1-70b_huatuogpt-o1-70b.json",
+      "source_sha256": "9f70e1cd0e874b932e105922dd90ff5a8ff799ea429f75ef13ab22f3eaca5d32",
+      "public_sha256": "b492c3def4efc0ca9cd3d1b5dc437a3853022349f4f7f87b0a8285b67f4d4303",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_huatuogpt-o1-70b_huatuogpt-o1-70b_huatuogpt-o1-70b.json",
+      "modified_error_strings": 17,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "huatuogpt-o1-8b",
+      "public_file": "huatuogpt-o1-8b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_huatuogpt-o1-8b_huatuogpt-o1-8b_huatuogpt-o1-8b.json",
+      "source_sha256": "e459e9bae78cefdcecaba01d5aa7d7080520ebe773ff4f12dc247eb9b1e2bb50",
+      "public_sha256": "e459e9bae78cefdcecaba01d5aa7d7080520ebe773ff4f12dc247eb9b1e2bb50",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_huatuogpt-o1-8b_huatuogpt-o1-8b_huatuogpt-o1-8b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "llama-3.1-70b",
+      "public_file": "llama-3.1-70b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_llama-3.1-70b_llama-3.1-70b_llama-3.1-70b.json",
+      "source_sha256": "0f8fd97ccc6a341bbd8179d96191f718f62005dafb13a1ad21ef6ba0145296b9",
+      "public_sha256": "0f8fd97ccc6a341bbd8179d96191f718f62005dafb13a1ad21ef6ba0145296b9",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_llama-3.1-70b_llama-3.1-70b_llama-3.1-70b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "llama-3.1-8b",
+      "public_file": "llama-3.1-8b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_llama-3.1-8b_llama-3.1-8b_llama-3.1-8b.json",
+      "source_sha256": "3fc1f3503fc265b370ddd9b488a0394a843d64dc8ad9e11edfdae253a58b2934",
+      "public_sha256": "3fc1f3503fc265b370ddd9b488a0394a843d64dc8ad9e11edfdae253a58b2934",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_llama-3.1-8b_llama-3.1-8b_llama-3.1-8b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "meditron3-70b",
+      "public_file": "meditron3-70b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_meditron3-70b_meditron3-70b_meditron3-70b.json",
+      "source_sha256": "3522c66d141c42767ef7a246f0af4c7a3c83c039d7580f5af1c0d4b38da2e42e",
+      "public_sha256": "3522c66d141c42767ef7a246f0af4c7a3c83c039d7580f5af1c0d4b38da2e42e",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_meditron3-70b_meditron3-70b_meditron3-70b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "meditron3-8b",
+      "public_file": "meditron3-8b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_meditron3-8b_meditron3-8b_meditron3-8b.json",
+      "source_sha256": "a97324f946018bd93b8d8393886753ee94d63537144428b7fca3e4eb3430df81",
+      "public_sha256": "085acae5ea8eba71c10e53d865d869d71a2e3bdfe4d231ce7200ec75f33c08a2",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_meditron3-8b_meditron3-8b_meditron3-8b.json",
+      "modified_error_strings": 9,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "mistral-7b",
+      "public_file": "mistral-7b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_mistral-7b_mistral-7b_mistral-7b.json",
+      "source_sha256": "851f5701097ee1393e3b33c3d461d0e028de1a12e81678427e79c743d9666bf1",
+      "public_sha256": "851f5701097ee1393e3b33c3d461d0e028de1a12e81678427e79c743d9666bf1",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_mistral-7b_mistral-7b_mistral-7b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "qwen2.5-72b",
+      "public_file": "qwen2.5-72b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_qwen2.5-72b_qwen2.5-72b_qwen2.5-72b.json",
+      "source_sha256": "2469ebee9ff6c3e276f0a70670211c9bacffda780fcf8b0282d0bae9f0cdc85d",
+      "public_sha256": "2469ebee9ff6c3e276f0a70670211c9bacffda780fcf8b0282d0bae9f0cdc85d",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_qwen2.5-72b_qwen2.5-72b_qwen2.5-72b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    },
+    {
+      "model": "qwen2.5-7b",
+      "public_file": "qwen2.5-7b.json",
+      "source_archive": "Result.zip",
+      "source_member": "Result/SelfRefine/sr_medqa_2i_qwen2.5-7b_qwen2.5-7b_qwen2.5-7b.json",
+      "source_sha256": "a8553f9c145a5d9035a3b5cea84f5c0317632acdd6a382c73e1a2481655b1d4b",
+      "public_sha256": "a8553f9c145a5d9035a3b5cea84f5c0317632acdd6a382c73e1a2481655b1d4b",
+      "public_source_archive": "Self_refine.zip",
+      "public_source_member": "Self_refine/Raw data/sr_medqa_2i_qwen2.5-7b_qwen2.5-7b_qwen2.5-7b.json",
+      "modified_error_strings": 0,
+      "all_other_json_values_identical": true
+    }
+  ],
+  "notes": [
+    "13 original-file hashes match the historical source package exactly.",
+    "11 public files are byte-identical to originals; two contain only the documented 26 error-string replacements.",
+    "Input, response, prediction, scoring and configuration values are otherwise unchanged."
+  ]
+}

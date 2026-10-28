@@ -1,0 +1,18 @@
+{
+  "source": "13 historical result JSONs in ../historical_results/",
+  "verified_model_step_rows": 26,
+  "all_seven_count_columns_match_source_package": true,
+  "totals": {
+    "observed": 6559,
+    "legacy": 1579,
+    "strict": 1408,
+    "relaxed": 1416,
+    "both": 1408,
+    "legacy_only": 171,
+    "relaxed_only": 8
+  },
+  "audit_records": 171,
+  "all_audit_texts_match_historical_critic_responses": true,
+  "all_audit_text_hashes_match": true,
+  "semantic_adjudication_performed": false
+}

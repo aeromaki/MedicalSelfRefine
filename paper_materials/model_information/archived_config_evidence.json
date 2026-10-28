@@ -1,0 +1,363 @@
+{
+  "scope": "13 historical Result/SelfRefine models only; archived config mappings are not HTTP request captures or final serving logs.",
+  "source_archive_sha256": "b71008903e5b40a004a6111516aff5deaaf4016652501db8cbf915d80822a5a7",
+  "results": [
+    {
+      "result_alias": "deepseek-r1-distill-70b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_deepseek-r1-distill-70b_deepseek-r1-distill-70b_deepseek-r1-distill-70b.json",
+      "archive_member_sha256": "c9ecb24a07492a619569f0d65462c5a9bee33c7eaf7e8ff3f1ba248fbe6693e8",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "deepseek-r1-distill-70b",
+          "deepseek-r1-distill-70b",
+          "deepseek-r1-distill-70b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "deepseek-r1",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_deepseek-r1_deepseek-r1_deepseek-r1.json",
+      "archive_member_sha256": "02f7fbccf7e085e4a60183552bd66a0a44c5348c264d5aaeeebaca964e9ad6da",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "deepseek-r1",
+          "deepseek-r1",
+          "deepseek-r1"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "gpt-4o-mini",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_gpt-4o-mini_gpt-4o-mini_gpt-4o-mini.json",
+      "archive_member_sha256": "065d35c7817e432009135361844e8da944584c0b9b142fa9ff5129c9ce172aa8",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "gpt-4o-mini",
+          "gpt-4o-mini",
+          "gpt-4o-mini"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "gpt-4o",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_gpt-4o_gpt-4o_gpt-4o.json",
+      "archive_member_sha256": "6138e9d86e04cb7bca0f3336b0a9dbf2acddc4872fcc324fe32f1b10eec25343",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "gpt-4o",
+          "gpt-4o",
+          "gpt-4o"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "huatuogpt-o1-70b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_huatuogpt-o1-70b_huatuogpt-o1-70b_huatuogpt-o1-70b.json",
+      "archive_member_sha256": "9f70e1cd0e874b932e105922dd90ff5a8ff799ea429f75ef13ab22f3eaca5d32",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "huatuogpt-o1-70b",
+          "huatuogpt-o1-70b",
+          "huatuogpt-o1-70b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "huatuogpt-o1-8b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_huatuogpt-o1-8b_huatuogpt-o1-8b_huatuogpt-o1-8b.json",
+      "archive_member_sha256": "e459e9bae78cefdcecaba01d5aa7d7080520ebe773ff4f12dc247eb9b1e2bb50",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "huatuogpt-o1-8b",
+          "huatuogpt-o1-8b",
+          "huatuogpt-o1-8b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "llama-3.1-70b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_llama-3.1-70b_llama-3.1-70b_llama-3.1-70b.json",
+      "archive_member_sha256": "0f8fd97ccc6a341bbd8179d96191f718f62005dafb13a1ad21ef6ba0145296b9",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "llama-3.1-70b",
+          "llama-3.1-70b",
+          "llama-3.1-70b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "llama-3.1-8b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_llama-3.1-8b_llama-3.1-8b_llama-3.1-8b.json",
+      "archive_member_sha256": "3fc1f3503fc265b370ddd9b488a0394a843d64dc8ad9e11edfdae253a58b2934",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "llama-3.1-8b",
+          "llama-3.1-8b",
+          "llama-3.1-8b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "meditron3-70b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_meditron3-70b_meditron3-70b_meditron3-70b.json",
+      "archive_member_sha256": "3522c66d141c42767ef7a246f0af4c7a3c83c039d7580f5af1c0d4b38da2e42e",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "meditron3-70b",
+          "meditron3-70b",
+          "meditron3-70b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "meditron3-8b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_meditron3-8b_meditron3-8b_meditron3-8b.json",
+      "archive_member_sha256": "a97324f946018bd93b8d8393886753ee94d63537144428b7fca3e4eb3430df81",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "meditron3-8b",
+          "meditron3-8b",
+          "meditron3-8b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "mistral-7b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_mistral-7b_mistral-7b_mistral-7b.json",
+      "archive_member_sha256": "851f5701097ee1393e3b33c3d461d0e028de1a12e81678427e79c743d9666bf1",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "mistral-7b",
+          "mistral-7b",
+          "mistral-7b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "qwen2.5-72b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_qwen2.5-72b_qwen2.5-72b_qwen2.5-72b.json",
+      "archive_member_sha256": "2469ebee9ff6c3e276f0a70670211c9bacffda780fcf8b0282d0bae9f0cdc85d",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "qwen2.5-72b",
+          "qwen2.5-72b",
+          "qwen2.5-72b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    },
+    {
+      "result_alias": "qwen2.5-7b",
+      "archive_member": "Result/SelfRefine/sr_medqa_2i_qwen2.5-7b_qwen2.5-7b_qwen2.5-7b.json",
+      "archive_member_sha256": "a8553f9c145a5d9035a3b5cea84f5c0317632acdd6a382c73e1a2481655b1d4b",
+      "config": {
+        "benchmark": "medqa",
+        "bench_config": {
+          "split": "test",
+          "slice": [
+            0,
+            300
+          ]
+        },
+        "models": [
+          "qwen2.5-7b",
+          "qwen2.5-7b",
+          "qwen2.5-7b"
+        ],
+        "method": "sr",
+        "n_iter": 2
+      }
+    }
+  ],
+  "archived_identifier_mapping": [
+    {
+      "result_alias": "deepseek-r1-distill-70b",
+      "archived_request_model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    },
+    {
+      "result_alias": "deepseek-r1",
+      "archived_request_model_id": "deepseek-ai/DeepSeek-R1",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    },
+    {
+      "result_alias": "gpt-4o-mini",
+      "archived_request_model_id": "gpt-4o-mini",
+      "archived_provider_evidence": "default endpoint; environment unverified"
+    },
+    {
+      "result_alias": "gpt-4o",
+      "archived_request_model_id": "gpt-4o",
+      "archived_provider_evidence": "default endpoint; environment unverified"
+    },
+    {
+      "result_alias": "huatuogpt-o1-70b",
+      "archived_request_model_id": "FreedomIntelligence/HuatuoGPT-o1-70B",
+      "archived_provider_evidence": "local endpoint; server unverified"
+    },
+    {
+      "result_alias": "huatuogpt-o1-8b",
+      "archived_request_model_id": "FreedomIntelligence/HuatuoGPT-o1-8B",
+      "archived_provider_evidence": "local endpoint; server unverified"
+    },
+    {
+      "result_alias": "llama-3.1-70b",
+      "archived_request_model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    },
+    {
+      "result_alias": "llama-3.1-8b",
+      "archived_request_model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    },
+    {
+      "result_alias": "meditron3-70b",
+      "archived_request_model_id": "OpenMeditron/Meditron3-70B",
+      "archived_provider_evidence": "local endpoint; server unverified"
+    },
+    {
+      "result_alias": "meditron3-8b",
+      "archived_request_model_id": "OpenMeditron/Meditron3-8B",
+      "archived_provider_evidence": "local endpoint; server unverified"
+    },
+    {
+      "result_alias": "mistral-7b",
+      "archived_request_model_id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    },
+    {
+      "result_alias": "qwen2.5-72b",
+      "archived_request_model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    },
+    {
+      "result_alias": "qwen2.5-7b",
+      "archived_request_model_id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+      "archived_provider_evidence": "Together AI (configured endpoint)"
+    }
+  ],
+  "excluded_manifest_aliases_not_in_historical_results": [
+    "biomistral-7b",
+    "deepseek-r1-distill-8b"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "workbook_sha256": "beb0fcdde97680d2b71f17b45e6e87da9b81e477ded4a16cb3dff5362d4414cc",
+  "sheets": [
+    "STOP",
+    "Taxonomy",
+    "Models",
+    "Item index"
+  ],
+  "formula_count": 178,
+  "cached_cell_errors": 0,
+  "source_row_counts": {
+    "STOP": 26,
+    "Taxonomy": 30,
+    "Models": 13,
+    "Item index": 300
+  },
+  "authoring_checks": "Rendered four sheet previews, recalculated formulas, imported exported XLSX, matched source table values.",
+  "workbook_role": "Reading copy; canonical values in CSV/JSON."
+}

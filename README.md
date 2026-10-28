@@ -2,6 +2,14 @@
 
 This project is a codebase for experimenting with Self-Refinement methods in medical question-answering (QA) tasks.
 
+## Paper materials
+
+The initial publication materials include the full role prompts, 300 evaluated MedQA items, historical results, STOP reanalysis, and GPT/Claude/DeepSeek error-taxonomy comparisons.
+
+[English guide](paper_materials/README.md) · [한국어 안내](paper_materials/README_KO.md) · [Summary workbook](paper_materials/summary_tables.xlsx)
+
+Historical experiment outputs, their reanalysis, and taxonomy reclassification are documented separately. Final repeated-generation/dispersion results for Comment 9 are not part of this initial materials release.
+
 ## 📋 Project Overview
 
 - **Purpose**: Comparative experiments of Self-Refinement, Multi-Critic Self-Refinement, and GenRM methods in medical QA

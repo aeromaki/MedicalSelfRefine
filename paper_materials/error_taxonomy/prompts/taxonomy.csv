@@ -1,0 +1,12 @@
+﻿axis,code,name,definition
+primary,1,Basic medical knowledge error,"having incorrect knowledge about the mechanism of medicine, immunology, disease mechanism, etc. (which leads to poor decisions)"
+primary,2,Diagnostic error,making incorrect diagnostic conclusions from the patient's condition.
+primary,3,Treatment and test method suggestion error,suggesting wrong treatment method or wrong test method for the patient's disease.
+primary,4,Other,"making math mistakes in questions that require math, doing well on a question but picking the wrong answer, etc."
+subtype,a,Prioritization error,misjudging the level of urgency or giving unnecessary prescriptions.
+subtype,b,Basic medical knowledge error,having incorrect medical knowledge which leads to poor decisions.
+subtype,c,Self-logic error,"having logical flaw in response. For example, a student may fail to show logical consistency, such as self-refuting his or her own words. Or the student may skip intermediate steps in his or her logical development."
+subtype,d,Arbitrary information assumption error,arbitrarily assuming (explicitly or implicitly) information that is not given in the question.
+subtype,e,Ignoring key clue,ignoring important information given in the question that is essential to derive the correct answer.
+subtype,f,Calculation and statistical interpretation error,making miscalculations or mistakes in the interpretation of statistical data.
+subtype,g,Other,errors that do not fall into any of the above categories.

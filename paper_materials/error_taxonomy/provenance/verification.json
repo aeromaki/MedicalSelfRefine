@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-28T10:06:09.528092+00:00",
+  "offline_recomputation": {
+    "status": "verified",
+    "total": 3309,
+    "valid_counts": {
+      "deepseek": 3231,
+      "original_gpt": 3174,
+      "claude": 3285,
+      "gpt_repeat1": 3165,
+      "gpt_repeat2": 3184
+    },
+    "common_all_five_n": 2908,
+    "pairwise_comparisons_verified": 10,
+    "common_comparisons_verified": 10,
+    "raw_saved_comparisons_verified": 10,
+    "audit_records_verified": 16545,
+    "previously_recovered_labels": {
+      "original_gpt": 6,
+      "claude": 72
+    },
+    "absolute_float_tolerance": 1e-12
+  },
+  "synthetic_tests_passed": 19,
+  "no_new_model_calls": true,
+  "all_original_source_files_unchanged": true,
+  "included_data_same_as_prepared_source": true,
+  "credential_and_local_path_pattern_hits": 0
+}

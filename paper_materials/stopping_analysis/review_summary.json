@@ -1,0 +1,19 @@
+{
+  "scope": 171,
+  "review_method": "All 171 records screened: STOP occurrences, opening/conclusion context, full-text lexical searches for error/correction/negation/quotation; flagged records read in full and checked against previous answers and original labels. Not independent blinded human adjudication or full clinical correctness assessment.",
+  "categories": {
+    "no_explicit_decision_reversal_identified": 167,
+    "answer_error_claim_with_STOP": 2,
+    "diagnostic_reconsideration_with_STOP": 1,
+    "minor_explanation_correction_answer_retained": 1
+  },
+  "strong_conflict_candidates": 3,
+  "confirmed_pure_quotation_or_negation_false_positives": 0,
+  "zero_is_not_proof_of_absence": true,
+  "refiner_not_executed": 171,
+  "saved_prediction_changed_after_stop": 0,
+  "correct_on_entry": 123,
+  "incorrect_on_entry": 48,
+  "counterfactual_answer_changes": "cannot be determined without further generation",
+  "human_adjudication": "pending"
+}

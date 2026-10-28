@@ -1,0 +1,39 @@
+{
+  "status": "Reported revision conditions; final run manifests and dispersion results are not included in the supplied publication package",
+  "not_a_live_process_status": true,
+  "conditions_reported_by_researcher": [
+    {
+      "condition": "greedy/temperature-zero condition",
+      "status": "reported revision work; final per-model execution evidence pending",
+      "gpt_api_wording": "temperature 0 condition; strict greedy implementation is not established"
+    },
+    {
+      "condition": "three independent repeats under historical request settings",
+      "planned_repeat_count": 3,
+      "status": "reported revision work; final independent-run inventory and dispersion pending",
+      "retry_policy_for_analysis": "Retries and checkpoint resumes do not constitute independent repeats"
+    }
+  ],
+  "reported_open_model_environment": {
+    "vllm_version": "0.9.2",
+    "dtype": "BF16",
+    "evidence_type": "researcher_statement"
+  },
+  "context_conditions_under_review": {
+    "parameter": "max_model_len",
+    "values": [
+      8192,
+      4096
+    ],
+    "meaning": "combined input and output context limit",
+    "status": "revision conditions under review; not reconstructed historical limits"
+  },
+  "output_token_limit": {
+    "parameter": "max_tokens",
+    "value": "PENDING per-model/per-condition final manifest",
+    "meaning": "requested generation output-token budget; distinct from max_model_len"
+  },
+  "editor_requirement_interpretation": "Greedy or repeated runs with dispersion; both are not treated as mandatory",
+  "prompt_status": "No claim that STOP/continue-balanced examples were added or that such a prompt experiment was completed",
+  "does_not_establish_historical_settings": true
+}
