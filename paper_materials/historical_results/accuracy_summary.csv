@@ -1,4 +1,4 @@
-﻿model,answer_stage,scheduled_questions,generation_failures,stored_correct_count,stored_accuracy,denominator_note
+model,answer_stage,scheduled_questions,generation_failures,stored_correct_count,stored_accuracy,denominator_note
 deepseek-r1-distill-70b,0,300,0,245,0.8166666666666667,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
 deepseek-r1-distill-70b,1,300,0,243,0.81,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
 deepseek-r1-distill-70b,2,300,0,234,0.78,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
@@ -36,5 +36,5 @@ qwen2.5-72b,0,300,0,228,0.76,Stored score over 300; failed generations are false
 qwen2.5-72b,1,300,0,227,0.7566666666666667,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
 qwen2.5-72b,2,300,0,230,0.7666666666666667,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
 qwen2.5-7b,0,300,0,167,0.5566666666666666,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
-qwen2.5-7b,1,300,0,116,0.38666666666666666,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
-qwen2.5-7b,2,300,0,111,0.37,Stored score over 300; failed generations are false in original result arrays; stopped answers can be carried forward.
+qwen2.5-7b,1,300,0,167,0.5566666666666666,Answer-extraction-corrected score over 300 from archived response text; original stored count was 116; original model JSON remains unchanged; stopped answers can be carried forward.
+qwen2.5-7b,2,300,0,166,0.5533333333333333,Answer-extraction-corrected score over 300 from archived response text; original stored count was 111; original model JSON remains unchanged; stopped answers can be carried forward.
