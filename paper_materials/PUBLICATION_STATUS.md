@@ -1,4 +1,4 @@
-# Scope of the initial materials release
+# Scope of the initial materials release (updated documentation, 24 November 2026)
 
 This release contains the supplied historical results, full role prompts, the selected 300-question list, historical STOP reanalysis and completed five-run error-taxonomy label analysis. It is not the final response to every revision comment.
 
@@ -9,7 +9,7 @@ This release contains the supplied historical results, full role prompts, the se
 | MedQA selection, answers and later dataset comparison | Included; historical dataset commit remains unknown |
 | STOP detector/format analysis and 171-case screen | Included as historical-output reanalysis; no independent semantic false-positive estimate |
 | Completed GPT/Claude/DeepSeek taxonomy classifications | Included as derived codes, audit metadata and offline comparison code; full grading prose is omitted |
-| Comment 9 final repeated-generation results and dispersion | Not included; not available in the supplied materials and not inferred from restart logs |
+| Comment 9 final repeated-generation results and dispersion | Completed and reported in the revised manuscript Supplementary Tables 10 (12-model greedy/temperature-zero) and 11 (11-model, three-run stochastic mean/SD); **not included as run-level records in this initial GitHub release** |
 | Fully established model identity/weight revision/environment table | Partial evidence included; unknown entries explicitly marked |
 | Runnable, credential-free model deployment configuration | Not claimed; templates illustrate structure, with remaining identity/serving requirements stated |
 | Human A/B ratings | Not included in this initial release |

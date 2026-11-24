@@ -1,8 +1,8 @@
 # Error-taxonomy reclassification
 
-[한국어 안내](README_KO.md) · [Methods](docs/METHODS.md) · [Limitations](docs/LIMITATIONS.md) · [Data dictionary](docs/DATA_DICTIONARY.md)
+[Korean guide](README_KO.md) | [Methods](docs/METHODS.md) | [Limitations](docs/LIMITATIONS.md) | [Data dictionary](docs/DATA_DICTIONARY.md)
 
-This part of the initial paper-materials release compares five sets of error-type labels on **3,309 archived answer instances**: historical GPT-4o-mini, two GPT-4o-mini reruns, Claude, and DeepSeek. It is separate from the original Self-Refinement outcome analysis and from the pending repeated-generation/dispersion experiment for Comment 9.
+This part of the initial paper-materials release compares five sets of error-type labels on **3,309 archived answer instances**: historical GPT-4o-mini, two GPT-4o-mini reruns, Claude, and DeepSeek. It is separate from the original Self-Refinement outcome analysis and from the completed supplementary repeatability/dispersion experiments now reported in manuscript Supplementary Tables 10 and 11. The separate repeated-generation run-level data are not part of this initial GitHub release.
 
 The same question occurs across 13 answer-generating models and three stages. These are not 3,309 independent questions. The taxonomy reruns preserved the archived inputs and classification prompt, including the input-extraction and example-label limitations documented below. No human ratings are included.
 

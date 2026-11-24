@@ -1,17 +1,18 @@
 {
-  "status": "Reported revision conditions; final run manifests and dispersion results are not included in the supplied publication package",
+  "status": "Supplementary results completed and reported in revised manuscript Tables 10 and 11; run-level records and manifests not included in this initial GitHub package",
   "not_a_live_process_status": true,
   "conditions_reported_by_researcher": [
     {
       "condition": "greedy/temperature-zero condition",
-      "status": "reported revision work; final per-model execution evidence pending",
+      "status": "completed; aggregate results reported in manuscript Supplementary Table 10; raw per-run outputs not released in initial GitHub package",
       "gpt_api_wording": "temperature 0 condition; strict greedy implementation is not established"
     },
     {
       "condition": "three independent repeats under historical request settings",
       "planned_repeat_count": 3,
-      "status": "reported revision work; final independent-run inventory and dispersion pending",
-      "retry_policy_for_analysis": "Retries and checkpoint resumes do not constitute independent repeats"
+      "status": "completed; aggregate means and sample SD for 11 models reported in Supplementary Table 11; raw per-run outputs not released in initial GitHub package",
+      "retry_policy_for_analysis": "Retries and checkpoint resumes do not constitute independent repeats",
+      "reported_repeat_count": 3
     }
   ],
   "reported_open_model_environment": {
@@ -35,5 +36,29 @@
   },
   "editor_requirement_interpretation": "Greedy or repeated runs with dispersion; both are not treated as mandatory",
   "prompt_status": "No claim that STOP/continue-balanced examples were added or that such a prompt experiment was completed",
-  "does_not_establish_historical_settings": true
+  "does_not_establish_historical_settings": true,
+  "manuscript_supplementary_results": {
+    "supplementary_table_10": {
+      "models": 12,
+      "open_weight_greedy_models": 10,
+      "gpt_temperature_zero_models": 2,
+      "runs_per_model": 1
+    },
+    "supplementary_table_11": {
+      "models": 11,
+      "temperature": 0.7,
+      "independent_runs_per_model": 3,
+      "dispersion": "mean and sample standard deviation"
+    },
+    "model_exclusions": {
+      "both_supplements": [
+        "DeepSeek-R1"
+      ],
+      "three_repeat_dataset_only": [
+        "Meditron3-8B"
+      ]
+    },
+    "run_level_records_in_this_github_package": false,
+    "source": "Revised manuscript Supplementary Tables 10 and 11, 24 November 2026"
+  }
 }

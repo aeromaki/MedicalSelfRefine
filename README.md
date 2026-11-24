@@ -6,46 +6,46 @@ This project is a codebase for experimenting with Self-Refinement methods in med
 
 The initial publication materials include the full role prompts, 300 evaluated MedQA items, historical results, STOP reanalysis, and GPT/Claude/DeepSeek error-taxonomy comparisons.
 
-[English guide](paper_materials/README.md) · [한국어 안내](paper_materials/README_KO.md) · [Summary workbook](paper_materials/summary_tables.xlsx)
+[English guide](paper_materials/README.md) | [Korean guide](paper_materials/README_KO.md) | [Summary workbook](paper_materials/summary_tables.xlsx)
 
-Historical experiment outputs, their reanalysis, and taxonomy reclassification are documented separately. Final repeated-generation/dispersion results for Comment 9 are not part of this initial materials release.
+Historical experiment outputs, their reanalysis, and taxonomy reclassification are documented separately. Supplementary reproducibility results are reported in revised-manuscript Supplementary Tables 10 and 11 (12 models under greedy/temperature-zero decoding and 11 models with three temperature-0.7 runs). Their run-level records are not part of the initial October 2026 GitHub materials release.
 
-## 📋 Project Overview
+## Project Overview
 
 - **Purpose**: Comparative experiments of Self-Refinement, Multi-Critic Self-Refinement, and GenRM methods in medical QA
 - **Datasets**: MedQA, MedMCQA, PubMedQA, DDXPlus
 - **Models**: Various LLM models (GPT-4o, Llama, Qwen, HuatuoGPT, etc.)
 
-## 🏗️ Project Structure
+## Project Structure
 
-```
-sr/implementations/
-├── main.py                 # Main execution script
-├── main_critic.py          # Critic-only execution script
-├── config_sr.py           # Self-Refinement configuration
-├── config_mcsr.py         # Multi-Critic Self-Refinement configuration
-├── config_genrm.py        # GenRM configuration
-├── models.json            # Model configuration file
-├── requirements.txt       # Python dependencies
-├── queues/               # Experiment queue configuration files
-│   ├── huatuo70b.json
-│   ├── gpt-4o.json
-│   └── ...
-├── results/              # Experiment results storage
-├── runbox/               # Core library
-│   ├── agents/           # Agent implementations
-│   ├── benchmarks/       # Benchmark datasets
-│   └── prompts/          # Prompt templates
-└── utils.py              # Utility functions
+```text
+implementations/
+|-- main.py                 # Main execution script
+|-- main_critic.py          # Critic-only execution script
+|-- config_sr.py            # Self-Refinement configuration
+|-- config_mcsr.py          # Multi-Critic Self-Refinement configuration
+|-- config_genrm.py         # GenRM configuration
+|-- models.json             # Local model configuration (gitignored)
+|-- queue.example.json      # Tracked example experiment queue
+|-- requirements.txt        # Python dependencies
+|-- results/                # Experiment results storage (gitignored)
+|-- runbox/                 # Core library
+|   |-- agents/             # Agent implementations
+|   |-- benchmarks/         # Benchmark datasets
+|   `-- prompts/            # Prompt templates
+`-- utils.py                # Utility functions
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Environment Setup
 
 ```bash
 # Python 3.12+ required
 python --version
+
+# From the repository root, switch to the directory containing requirements.txt/main.py
+cd implementations
 
 # Create and activate virtual environment
 python -m venv .venv
@@ -68,7 +68,7 @@ OPENAI_API_KEY="your_openai_api_key"
 
 ### 3. Model Configuration
 
-Configure the models to use in `models.json`:
+From `implementations/`, copy the public template using `cp ../paper_materials/model_information/models.template.json models.json`, then update the example endpoints and model IDs for your authorized local or API servers. The placeholder for DeepSeek-R1 is deliberately not a valid live model ID. `models.json` is gitignored and may contain private connection details. Example of the required configuration shape:
 
 ```json
 {
@@ -85,17 +85,17 @@ Configure the models to use in `models.json`:
 ### 4. Run Experiments
 
 ```bash
-# Self-Refinement experiment
-python main.py -q queues/huatuo70b.json -n 4 -r results
+# Intrinsic Self-Refinement example; update models.json before running.
+# This example uses 300 MedQA items and can incur API/GPU costs.
+python main.py -q queue.example.json -n 1 -r results
 
-# Critic-only experiment
-python main_critic.py -q queues/huatuo70b.json -n 4 -r results
+# Other execution arms in this general-purpose codebase were not run in the paper.
 ```
 
-## 📊 Experiment Methods
+## Experiment Methods
 
 ### Self-Refinement (SR)
-- **Initial Response** → **Critique** → **Refinement** → **Repeat**
+- **Initial Response** -> **Critique** -> **Refinement** -> **Repeat**
 - Repeat improvement process `n_iter` times
 
 ### Multi-Critic Self-Refinement (MCSR)
@@ -106,7 +106,7 @@ python main_critic.py -q queues/huatuo70b.json -n 4 -r results
 - Generative critique model
 - More natural feedback
 
-## 🔧 Command Options
+## Command Options
 
 ```bash
 python main.py [OPTIONS]
@@ -118,24 +118,28 @@ Options:
   --buffer_path         Buffer file path (default: .cache/buffer)
 ```
 
-## 📈 Result Analysis
+## Result Analysis
 
 Experiment results are saved in JSON format in the `results/` folder:
 
 ```json
 {
-  "config": {...},           // Experiment configuration
-  "final_score": [0.87, 0.88, 0.89],  // Accuracy for each iteration
-  "total_cost": 7.29,        // Total cost
-  "generations": [...]       // Detailed results
+  "config": {},
+  "final_score": [0.87, 0.88, 0.89],
+  "total_cost": 7.29,
+  "generations": []
 }
 ```
 
-## 🖥️ Model Serving
+## Historical study vs. general-purpose code
+
+The manuscript evaluates **intrinsic self-refinement only**. The codebase also supports other methods, providers, and benchmarks; that support does not mean those arms or endpoints were used in the manuscript. According to the researcher's account, the historical open-weight models were served locally with vLLM 0.9.2/BF16. The preserved Together AI endpoints are archival configuration evidence, not independently verified final serving logs. See [model provenance](paper_materials/model_information/README.md).
+
+## Model Serving
 
 ### Local Server (vLLM)
 ```bash
-# Run on GPU server
+# Example server command (adjust model ID, checkpoint, GPU resources and port)
 vllm serve FreedomIntelligence/HuatuoGPT-o1-70B --port 8025
 ```
 
@@ -144,19 +148,19 @@ vllm serve FreedomIntelligence/HuatuoGPT-o1-70B --port 8025
 - OpenAI
 - Other compatible APIs
 
-## 🛠️ Development Tools
+## Development Tools
 
 - **Type Checking**: [pyre](https://pyre-check.org)
 - **Code Formatting**: black, isort
 - **Linting**: flake8
 
-## 📝 Requirements
+## Requirements
 
 - Python >= 3.12
 - CUDA-compatible GPU (when using local server)
 - Sufficient memory (when using 70B models)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -164,10 +168,10 @@ vllm serve FreedomIntelligence/HuatuoGPT-o1-70B --port 8025
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
+## License
 
 This project is developed for research purposes.
 
-## 📞 Contact
+## Contact
 
 If you have any questions about the project, please create an issue.

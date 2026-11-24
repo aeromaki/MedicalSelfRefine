@@ -9,4 +9,6 @@ The historical client-default audit recorded these official dependency sources:
 
 The wheel digest and relevant source behavior are preserved in [decoding_evidence.md](decoding_evidence.md). These links were recorded by the earlier audit; they were not newly fetched during publication assembly. They support the conditional client construction analysis, not the final historical serving configuration.
 
+The revised manuscript lists model-specific sources as References 24--35, including HuatuoGPT-o1 and both Meditron3 repository references. These publication citations do not prove the exact historical weight-commit hashes, so fields in the catalog that require original deployment evidence remain unresolved.
+
 For the final Comment 10 table, complete model-specific official card/paper attribution together with exact served repository and weight revision. Keep instruction-tuned variants separate from base-model citations, the HuatuoGPT-o1 variant separate from earlier HuatuoGPT, and the two DeepSeek entries distinct. A namespace redirect or current card cannot by itself establish the historical checkpoint.

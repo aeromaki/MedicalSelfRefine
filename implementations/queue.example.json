@@ -1,0 +1,20 @@
+[
+  {
+    "benchmark": "medqa",
+    "bench_config": {
+      "split": "test",
+      "slice": [
+        0,
+        300
+      ]
+    },
+    "method": "sr",
+    "models": [
+      "gpt-4o",
+      "gpt-4o",
+      "gpt-4o"
+    ],
+    "n_iter": 2,
+    "cheat": false
+  }
+]
