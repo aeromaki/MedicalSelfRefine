@@ -26,7 +26,7 @@
       4096
     ],
     "meaning": "combined input and output context limit",
-    "status": "revision conditions under review; not reconstructed historical limits"
+    "status": "Revision conditions remain separate. The historical open-model max_model_len was subsequently confirmed by the researcher as 8192; see historical_settings.json."
   },
   "output_token_limit": {
     "parameter": "max_tokens",

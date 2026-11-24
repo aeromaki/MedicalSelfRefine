@@ -1,6 +1,6 @@
 {
   "scope": "Historical MedQA self-refinement, not the later taxonomy reclassification runs",
-  "evidence_type": "reconstructed_client_request_construction",
+  "evidence_type": "reconstructed_client_request_and_researcher_confirmed_server_setting",
   "qualification": "Conditional on the supplied source and pinned langchain-openai version being used without unrecorded overrides. Effective server behavior is not recovered by this analysis.",
   "client": {
     "library": "langchain-openai",
@@ -16,17 +16,24 @@
     }
   },
   "server": {
-    "historical_context_limit_max_model_len": "UNKNOWN",
+    "historical_context_limit_max_model_len": 8192,
     "historical_effective_output_limit": "UNKNOWN",
     "effective_backend_top_p": "UNKNOWN",
-    "effective_backend_seed": "UNKNOWN"
+    "effective_backend_seed": "UNKNOWN",
+    "historical_context_limit_scope": "Open-weight models only; combined input and output context, not output max_tokens; excludes GPT API internals.",
+    "historical_context_limit_evidence": {
+      "type": "researcher_statement",
+      "confirmed_on": "2026-11-24",
+      "runtime_logs_recovered": false
+    }
   },
   "researcher_confirmed_open_model_environment": {
     "vllm_version": "0.9.2",
     "dtype": "BF16",
     "applies_to": "researcher-reported open-model execution environment; not GPT API internals",
     "evidence_type": "researcher_statement",
-    "historical_runtime_logs_recovered": false
+    "historical_runtime_logs_recovered": false,
+    "max_model_len": 8192
   },
   "quantization": {
     "additional_quantization": "researcher recollection: none added",
@@ -39,5 +46,11 @@
     "selection": "first 300 in order",
     "random_item_selection_seed": "N/A: consecutive selection; distinct from generation seed"
   },
-  "evidence": "decoding_evidence.md; archived_config_evidence.json; evidence_sources.json"
+  "evidence": "decoding_evidence.md; archived_config_evidence.json; evidence_sources.json",
+  "model_download_period": {
+    "month": "2025-07",
+    "evidence_type": "researcher_statement",
+    "confirmed_on": "2026-11-24",
+    "scope": "open-model downloads; not an API snapshot identifier"
+  }
 }

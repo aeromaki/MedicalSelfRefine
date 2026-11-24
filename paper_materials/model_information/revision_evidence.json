@@ -1,0 +1,2824 @@
+{
+  "retrieved_on": "2026-11-24",
+  "scope": "Public repository metadata; no downloaded model weights or historical runtime logs.",
+  "medical": [
+    {
+      "requested_repository": "FreedomIntelligence/HuatuoGPT-o1-8B",
+      "final_url": "https://huggingface.co/api/models/FreedomIntelligence/HuatuoGPT-o1-8B/commits/main",
+      "metadata_final_url": "https://huggingface.co/api/models/FreedomIntelligence/HuatuoGPT-o1-8B",
+      "metadata": {
+        "_id": "676e6c3b044b7dee74d5ae84",
+        "id": "FreedomIntelligence/HuatuoGPT-o1-8B",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "tags": [
+          "safetensors",
+          "medical",
+          "text-generation",
+          "en",
+          "dataset:FreedomIntelligence/medical-o1-reasoning-SFT",
+          "dataset:FreedomIntelligence/medical-o1-verifiable-problem",
+          "arxiv:2412.18925",
+          "base_model:meta-llama/Llama-3.1-8B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.1-8B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "downloads": 412,
+        "likes": 62,
+        "modelId": "FreedomIntelligence/HuatuoGPT-o1-8B",
+        "author": "FreedomIntelligence",
+        "sha": "afc8b260e5b3dee9233863cf2de3080f3094442a",
+        "lastModified": "2024-12-30T02:45:44Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {},
+        "cardData": {
+          "license": "apache-2.0",
+          "datasets": [
+            "FreedomIntelligence/medical-o1-reasoning-SFT",
+            "FreedomIntelligence/medical-o1-verifiable-problem"
+          ],
+          "language": [
+            "en"
+          ],
+          "base_model": [
+            "meta-llama/Llama-3.1-8B-Instruct"
+          ],
+          "pipeline_tag": "text-generation",
+          "tags": [
+            "medical"
+          ]
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes"
+          },
+          {
+            "rfilename": "README.md"
+          },
+          {
+            "rfilename": "config.json"
+          },
+          {
+            "rfilename": "generation_config.json"
+          },
+          {
+            "rfilename": "model-00001-of-00004.safetensors"
+          },
+          {
+            "rfilename": "model-00002-of-00004.safetensors"
+          },
+          {
+            "rfilename": "model-00003-of-00004.safetensors"
+          },
+          {
+            "rfilename": "model-00004-of-00004.safetensors"
+          },
+          {
+            "rfilename": "model.safetensors.index.json"
+          },
+          {
+            "rfilename": "special_tokens_map.json"
+          },
+          {
+            "rfilename": "tokenizer.json"
+          },
+          {
+            "rfilename": "tokenizer_config.json"
+          }
+        ],
+        "spaces": [
+          "Mr-HASSAN/arabic-sign-language-yolo"
+        ],
+        "createdAt": "2024-12-27T08:58:35Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 8030261248
+          },
+          "total": 8030261248
+        },
+        "inference": "warm",
+        "usedStorage": 16077847163
+      },
+      "commits": [
+        {
+          "id": "afc8b260e5b3dee9233863cf2de3080f3094442a",
+          "title": "Update README.md",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-30T02:45:44Z"
+        },
+        {
+          "id": "529712b2cf395ebb6ba8d0ff7a55badf577dd4ae",
+          "title": "Update README.md",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-29T08:21:21Z"
+        },
+        {
+          "id": "47fa2b0037e3b42f1357446f119210a212ecc074",
+          "title": "Update README.md",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-28T04:36:29Z"
+        },
+        {
+          "id": "83288bb7aeaf5f0f8a389a0f8b94f70b523070e7",
+          "title": "update",
+          "message": "\n",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-27T09:06:15Z"
+        },
+        {
+          "id": "2447acd1d978bd7782c1389398ec180415dcfdaa",
+          "title": "initial commit",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-27T08:58:38Z"
+        }
+      ],
+      "pagination": null
+    },
+    {
+      "requested_repository": "FreedomIntelligence/HuatuoGPT-o1-70B",
+      "final_url": "https://huggingface.co/api/models/FreedomIntelligence/HuatuoGPT-o1-70B/commits/main",
+      "metadata_final_url": "https://huggingface.co/api/models/FreedomIntelligence/HuatuoGPT-o1-70B",
+      "metadata": {
+        "_id": "676e6ddc0e0d10977a21380c",
+        "id": "FreedomIntelligence/HuatuoGPT-o1-70B",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "tags": [
+          "safetensors",
+          "medical",
+          "text-generation",
+          "en",
+          "dataset:FreedomIntelligence/medical-o1-reasoning-SFT",
+          "dataset:FreedomIntelligence/medical-o1-verifiable-problem",
+          "arxiv:2412.18925",
+          "base_model:meta-llama/Llama-3.1-8B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.1-8B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "downloads": 104,
+        "likes": 15,
+        "modelId": "FreedomIntelligence/HuatuoGPT-o1-70B",
+        "author": "FreedomIntelligence",
+        "sha": "a10f06ad04115c5205da2cf63b2e06b5e9d13ac9",
+        "lastModified": "2024-12-30T02:46:15Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {},
+        "cardData": {
+          "license": "apache-2.0",
+          "datasets": [
+            "FreedomIntelligence/medical-o1-reasoning-SFT",
+            "FreedomIntelligence/medical-o1-verifiable-problem"
+          ],
+          "language": [
+            "en"
+          ],
+          "base_model": [
+            "meta-llama/Llama-3.1-8B-Instruct"
+          ],
+          "pipeline_tag": "text-generation",
+          "tags": [
+            "medical"
+          ]
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes"
+          },
+          {
+            "rfilename": "README.md"
+          },
+          {
+            "rfilename": "config.json"
+          },
+          {
+            "rfilename": "generation_config.json"
+          },
+          {
+            "rfilename": "model-00001-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00002-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00003-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00004-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00005-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00006-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00007-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00008-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00009-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00010-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00011-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00012-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00013-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00014-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00015-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00016-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00017-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00018-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00019-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00020-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00021-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00022-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00023-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00024-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00025-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00026-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00027-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00028-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00029-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model-00030-of-00030.safetensors"
+          },
+          {
+            "rfilename": "model.safetensors.index.json"
+          },
+          {
+            "rfilename": "special_tokens_map.json"
+          },
+          {
+            "rfilename": "tokenizer.json"
+          },
+          {
+            "rfilename": "tokenizer_config.json"
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2024-12-27T09:05:32Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 70553706496
+          },
+          "total": 70553706496
+        },
+        "usedStorage": 141124824295
+      },
+      "commits": [
+        {
+          "id": "a10f06ad04115c5205da2cf63b2e06b5e9d13ac9",
+          "title": "Update README.md",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-30T02:46:15Z"
+        },
+        {
+          "id": "33c20aff41b63af55f8e17d3338a8c35fa68ea8a",
+          "title": "Update README.md",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-29T08:20:55Z"
+        },
+        {
+          "id": "f2af75c438d7dcaf42ff8054bccfb3b2f2eec8aa",
+          "title": "Update README.md",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-28T09:26:46Z"
+        },
+        {
+          "id": "96ada1b0dd59945fb48a63d98311eb2986be13e6",
+          "title": "update",
+          "message": "\n",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-27T16:41:53Z"
+        },
+        {
+          "id": "4516e995f1973bca944262b4c80618d981e85ae4",
+          "title": "initial commit",
+          "message": "",
+          "authors": [
+            {
+              "user": "jymcc",
+              "avatar": "/avatars/a0a87df9425a4e2ac2068b47155d2ddf.svg"
+            }
+          ],
+          "date": "2024-12-27T09:05:32Z"
+        }
+      ],
+      "pagination": null
+    },
+    {
+      "requested_repository": "OpenMeditron/Meditron3-8B",
+      "error": "Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "requested_repository": "OpenMeditron/Meditron3-70B",
+      "error": "Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "requested_repository": "EPFLiGHT/Meditron3-8B",
+      "error": "Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "requested_repository": "EPFLiGHT/Meditron3-70B",
+      "error": "Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "meditron_redirect_checks": [
+        {
+          "url": "https://huggingface.co/api/models/OpenMeditron/Meditron3-8B",
+          "status": 200,
+          "final_url": "https://huggingface.co/api/models/EPFLiGHT/Meditron3-8B",
+          "metadata": {
+            "_id": "669070e421b5557342185af0",
+            "id": "EPFLiGHT/Meditron3-8B",
+            "private": false,
+            "pipeline_tag": "text-generation",
+            "library_name": "transformers",
+            "tags": [
+              "transformers",
+              "safetensors",
+              "llama",
+              "text-generation",
+              "medical",
+              "clinical",
+              "healthcare",
+              "meditron",
+              "medical-llm",
+              "conversational",
+              "en",
+              "base_model:meta-llama/Llama-3.1-8B-Instruct",
+              "base_model:finetune:meta-llama/Llama-3.1-8B-Instruct",
+              "license:llama3.1",
+              "text-generation-inference",
+              "endpoints_compatible",
+              "region:us"
+            ],
+            "downloads": 389,
+            "likes": 33,
+            "modelId": "EPFLiGHT/Meditron3-8B",
+            "author": "EPFLiGHT",
+            "sha": "783c241b18b84692689e0336170b345e5732e48e",
+            "lastModified": "2026-06-25T11:10:04Z",
+            "gated": "auto",
+            "disabled": false,
+            "widgetData": [
+              {
+                "text": "Hi, what can you help me with?"
+              },
+              {
+                "text": "What is 84 * 3 / 2?"
+              },
+              {
+                "text": "Tell me an interesting fact about the universe!"
+              },
+              {
+                "text": "Explain quantum computing in simple terms."
+              }
+            ],
+            "model-index": null,
+            "config": {
+              "architectures": [
+                "LlamaForCausalLM"
+              ],
+              "model_type": "llama",
+              "tokenizer_config": {
+                "bos_token": "<|begin_of_text|>",
+                "chat_template": "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}",
+                "eos_token": "<|eot_id|>",
+                "pad_token": "<|end_of_text|>"
+              }
+            },
+            "cardData": {
+              "license": "llama3.1",
+              "language": [
+                "en"
+              ],
+              "new_version": "EPFLiGHT/Apertus-8B-MeditronFO",
+              "library_name": "transformers",
+              "pipeline_tag": "text-generation",
+              "tags": [
+                "medical",
+                "clinical",
+                "healthcare",
+                "meditron",
+                "medical-llm"
+              ],
+              "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+              "base_model_relation": "finetune"
+            },
+            "transformersInfo": {
+              "auto_model": "AutoModelForCausalLM",
+              "pipeline_tag": "text-generation",
+              "processor": "AutoTokenizer"
+            },
+            "siblings": [
+              {
+                "rfilename": ".gitattributes"
+              },
+              {
+                "rfilename": "README.md"
+              },
+              {
+                "rfilename": "config.json"
+              },
+              {
+                "rfilename": "generation_config.json"
+              },
+              {
+                "rfilename": "latest"
+              },
+              {
+                "rfilename": "model-00001-of-00004.safetensors"
+              },
+              {
+                "rfilename": "model-00002-of-00004.safetensors"
+              },
+              {
+                "rfilename": "model-00003-of-00004.safetensors"
+              },
+              {
+                "rfilename": "model-00004-of-00004.safetensors"
+              },
+              {
+                "rfilename": "model.safetensors.index.json"
+              },
+              {
+                "rfilename": "models.safetensors.index.json"
+              },
+              {
+                "rfilename": "scheduler.pt"
+              },
+              {
+                "rfilename": "tokenizer.json"
+              },
+              {
+                "rfilename": "tokenizer_config.json"
+              },
+              {
+                "rfilename": "trainer_state.json"
+              },
+              {
+                "rfilename": "training_args.bin"
+              },
+              {
+                "rfilename": "zero_to_fp32.py"
+              }
+            ],
+            "spaces": [],
+            "createdAt": "2024-07-11T23:55:16Z",
+            "safetensors": {
+              "parameters": {
+                "BF16": 8030261248
+              },
+              "total": 8030261248
+            },
+            "usedStorage": 16060565112
+          }
+        },
+        {
+          "url": "https://huggingface.co/api/models/OpenMeditron/Meditron3-70B",
+          "status": 200,
+          "final_url": "https://huggingface.co/api/models/EPFLiGHT/Meditron3-70B",
+          "metadata": {
+            "_id": "6690843b28e860ffe988c488",
+            "id": "EPFLiGHT/Meditron3-70B",
+            "private": false,
+            "pipeline_tag": "text-generation",
+            "library_name": "transformers",
+            "tags": [
+              "transformers",
+              "safetensors",
+              "llama",
+              "text-generation",
+              "medical",
+              "clinical",
+              "healthcare",
+              "meditron",
+              "medical-llm",
+              "conversational",
+              "en",
+              "base_model:meta-llama/Llama-3.1-70B-Instruct",
+              "base_model:finetune:meta-llama/Llama-3.1-70B-Instruct",
+              "license:llama3.1",
+              "text-generation-inference",
+              "endpoints_compatible",
+              "region:us"
+            ],
+            "downloads": 35,
+            "likes": 26,
+            "modelId": "EPFLiGHT/Meditron3-70B",
+            "author": "EPFLiGHT",
+            "sha": "1ec3a7ee2355e384149df2e4dd42fed41e7fd08f",
+            "lastModified": "2026-06-26T14:42:47Z",
+            "gated": "auto",
+            "disabled": false,
+            "widgetData": [
+              {
+                "text": "Hi, what can you help me with?"
+              },
+              {
+                "text": "What is 84 * 3 / 2?"
+              },
+              {
+                "text": "Tell me an interesting fact about the universe!"
+              },
+              {
+                "text": "Explain quantum computing in simple terms."
+              }
+            ],
+            "model-index": null,
+            "config": {
+              "architectures": [
+                "LlamaForCausalLM"
+              ],
+              "model_type": "llama",
+              "tokenizer_config": {
+                "bos_token": "<|begin_of_text|>",
+                "chat_template": "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}",
+                "eos_token": "<|eot_id|>",
+                "pad_token": "<|end_of_text|>"
+              }
+            },
+            "cardData": {
+              "license": "llama3.1",
+              "language": [
+                "en"
+              ],
+              "new_version": "EPFLiGHT/Apertus-70B-MeditronFO",
+              "library_name": "transformers",
+              "pipeline_tag": "text-generation",
+              "tags": [
+                "medical",
+                "clinical",
+                "healthcare",
+                "meditron",
+                "medical-llm"
+              ],
+              "base_model": "meta-llama/Llama-3.1-70B-Instruct",
+              "base_model_relation": "finetune"
+            },
+            "transformersInfo": {
+              "auto_model": "AutoModelForCausalLM",
+              "pipeline_tag": "text-generation",
+              "processor": "AutoTokenizer"
+            },
+            "siblings": [
+              {
+                "rfilename": ".gitattributes"
+              },
+              {
+                "rfilename": "README.md"
+              },
+              {
+                "rfilename": "config.json"
+              },
+              {
+                "rfilename": "generation_config.json"
+              },
+              {
+                "rfilename": "model-00001-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00002-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00003-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00004-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00005-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00006-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00007-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00008-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00009-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00010-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00011-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00012-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00013-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00014-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00015-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00016-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00017-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00018-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00019-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00020-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00021-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00022-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00023-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00024-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00025-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00026-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00027-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00028-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00029-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model-00030-of-00030.safetensors"
+              },
+              {
+                "rfilename": "model.safetensors.index.json"
+              },
+              {
+                "rfilename": "scheduler.pt"
+              },
+              {
+                "rfilename": "tokenizer.json"
+              },
+              {
+                "rfilename": "tokenizer_config.json"
+              },
+              {
+                "rfilename": "trainer_state.json"
+              },
+              {
+                "rfilename": "training_args.bin"
+              },
+              {
+                "rfilename": "zero_to_fp32.py"
+              }
+            ],
+            "spaces": [
+              "mostafa922/hayat-meditron-v5-a100",
+              "mostafa922/hayat-meditron-v5-disksafe"
+            ],
+            "createdAt": "2024-07-12T01:17:47Z",
+            "safetensors": {
+              "parameters": {
+                "BF16": 70553706496
+              },
+              "total": 70553706496
+            },
+            "usedStorage": 141107506608
+          }
+        },
+        {
+          "url": "https://huggingface.co/OpenMeditron/Meditron3-8B",
+          "status": 200,
+          "final_url": "https://huggingface.co/EPFLiGHT/Meditron3-8B"
+        },
+        {
+          "url": "https://huggingface.co/OpenMeditron/Meditron3-70B",
+          "status": 200,
+          "final_url": "https://huggingface.co/EPFLiGHT/Meditron3-70B"
+        }
+      ]
+    }
+  ],
+  "llama_qwen": {
+    "retrieved_utc": "2026-11-24T00:21:31.4732363Z",
+    "scope": "July 2025 upstream repository candidates, not recovered historical deployments",
+    "models": [
+      {
+        "repository": "Qwen/Qwen2.5-7B-Instruct",
+        "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-7B-Instruct",
+        "metadata": {
+          "id": "Qwen/Qwen2.5-7B-Instruct",
+          "sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+          "lastModified": "2025-01-12T02:10:10Z",
+          "createdAt": "2024-09-16T11:55:40Z",
+          "gated": false
+        },
+        "historical_mapping_status": "Candidate upstream repository only; archived Turbo API identifier does not establish exact local deployment identity.",
+        "history_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-7B-Instruct/commits/main",
+        "pagination_link": null,
+        "commits": [
+          {
+            "id": "a09a35458c702b33eeacc393d103063234e8bc28",
+            "date": "2025-01-12T02:10:10Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "bb46c15ee4bb56c5b63245ef50fd7637234d6f75",
+            "date": "2024-09-25T12:33:14Z",
+            "title": "Update metadata: Add library_name to Transformers (#8)"
+          },
+          {
+            "id": "acbd96531cda22292a3ceaa67e984955d3965282",
+            "date": "2024-09-19T07:30:10Z",
+            "title": "Upload ./tokenizer_config.json with huggingface_hub"
+          },
+          {
+            "id": "52e20a6f5f475e5c8f6a8ebda4ae5fa6b1ea22ac",
+            "date": "2024-09-18T11:20:44Z",
+            "title": "update README & LICENSE"
+          },
+          {
+            "id": "a306ca65c69cb09b9ce8ae8396fd529d509d872e",
+            "date": "2024-09-18T05:48:17Z",
+            "title": "update config.json"
+          },
+          {
+            "id": "929d90a7473be218ae132181708d94dbf08a0420",
+            "date": "2024-09-18T01:42:04Z",
+            "title": "Update tokenizer_config.json"
+          },
+          {
+            "id": "ddb6b63a3f61ac6c557eb55619b0a5e125129302",
+            "date": "2024-09-17T18:21:30Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "aa1b43105a3f06981f0e01380b9ff04bf0b5da31",
+            "date": "2024-09-17T14:34:47Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "605f1116cfdfd9f5d5eb7d3f9ee2c546d1b1a0e3",
+            "date": "2024-09-17T14:33:15Z",
+            "title": "Update config.json"
+          },
+          {
+            "id": "ddbda89638a686c2d485a02daf0ea4e5e2a40cbc",
+            "date": "2024-09-17T14:29:26Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "4e8250bf37a39ddb5ea93e6db621e323068e331d",
+            "date": "2024-09-17T14:02:52Z",
+            "title": "Create README.md"
+          },
+          {
+            "id": "d1e200fcf95ef0d4326873ddf63e5562d5f1fdbb",
+            "date": "2024-09-16T13:55:22Z",
+            "title": "Upload folder using huggingface_hub"
+          },
+          {
+            "id": "11a48c2fe3279b488d38ba5cefd3b2ab8f6f681e",
+            "date": "2024-09-16T11:55:40Z",
+            "title": "initial commit"
+          }
+        ],
+        "july_commits": [],
+        "july_start_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "july_end_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "evidence_status": "Full public commit history retrieved; no pagination link; no July commits."
+      },
+      {
+        "repository": "Qwen/Qwen2.5-72B-Instruct",
+        "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-72B-Instruct",
+        "metadata": {
+          "id": "Qwen/Qwen2.5-72B-Instruct",
+          "sha": "495f39366efef23836d0cfae4fbe635880d2be31",
+          "lastModified": "2025-01-12T02:07:38Z",
+          "createdAt": "2024-09-16T11:56:31Z",
+          "gated": false
+        },
+        "historical_mapping_status": "Candidate upstream repository only; archived Turbo API identifier does not establish exact local deployment identity.",
+        "history_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-72B-Instruct/commits/main",
+        "pagination_link": null,
+        "commits": [
+          {
+            "id": "495f39366efef23836d0cfae4fbe635880d2be31",
+            "date": "2025-01-12T02:07:38Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "d3d951150c1e5848237cd6a7ad11df4836aee842",
+            "date": "2024-09-25T12:33:18Z",
+            "title": "Update metadata: Add library_name to Transformers (#14)"
+          },
+          {
+            "id": "a13fff9ad76700c7ecff2769f75943ba8395b4a7",
+            "date": "2024-09-19T07:30:33Z",
+            "title": "Upload ./tokenizer_config.json with huggingface_hub"
+          },
+          {
+            "id": "0df185c2cf66ca6fd745a154e25b8e15975358dd",
+            "date": "2024-09-18T09:03:27Z",
+            "title": "Update LICENSE"
+          },
+          {
+            "id": "d1672681c56c91eb2a7cdf8c7a7e223defdd7868",
+            "date": "2024-09-18T08:18:11Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "347606f5a6be8834d71d1321440b180e14fb19b0",
+            "date": "2024-09-18T08:07:27Z",
+            "title": "Create LICENSE"
+          },
+          {
+            "id": "c970f6d046b6df37baa3d7466df2287fa7c9620e",
+            "date": "2024-09-18T05:47:19Z",
+            "title": "update config.json"
+          },
+          {
+            "id": "f073433cb484002b27d7a84e8bce1c7435e14a1c",
+            "date": "2024-09-17T19:04:31Z",
+            "title": "Update tokenizer_config.json"
+          },
+          {
+            "id": "b07efc41c090445c9417fed2ed2d0c5226d373ca",
+            "date": "2024-09-17T18:39:01Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "2292f4989bfc99e325f0267216620adc6c5b117d",
+            "date": "2024-09-17T14:36:48Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "b1faa85a98f9c21f5d2453514c15e969063ae1a9",
+            "date": "2024-09-17T14:00:03Z",
+            "title": "Update README.md"
+          },
+          {
+            "id": "64fc727ede4f4f308d85b82058218d2c3853646f",
+            "date": "2024-09-17T12:53:18Z",
+            "title": "Create README.md"
+          },
+          {
+            "id": "d9c31670291b860cecf111a94ce34c4e3ab66fcc",
+            "date": "2024-09-16T20:16:47Z",
+            "title": "Update config.json"
+          },
+          {
+            "id": "f689aa03cd0893b424bb44b7292ca01f11dc6626",
+            "date": "2024-09-16T18:06:40Z",
+            "title": "Upload folder using huggingface_hub"
+          },
+          {
+            "id": "9b34598b899af4642552e7ab727dd11b20e5356e",
+            "date": "2024-09-16T11:56:31Z",
+            "title": "initial commit"
+          }
+        ],
+        "july_commits": [],
+        "july_start_sha": "495f39366efef23836d0cfae4fbe635880d2be31",
+        "july_end_sha": "495f39366efef23836d0cfae4fbe635880d2be31",
+        "evidence_status": "Full public commit history retrieved; no pagination link; no July commits."
+      },
+      {
+        "repository": "meta-llama/Llama-3.1-8B-Instruct",
+        "metadata_url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct",
+        "metadata": {
+          "id": "meta-llama/Llama-3.1-8B-Instruct",
+          "sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+          "lastModified": "2024-09-25T17:00:57Z",
+          "createdAt": "2024-07-18T08:56:00Z",
+          "gated": "manual"
+        },
+        "historical_mapping_status": "Candidate upstream repository only; archived Turbo API identifier does not establish exact local deployment identity.",
+        "history_status": "Commit history endpoint returned restricted access; no authenticated access attempted.",
+        "july_candidate_sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "evidence_status": "Inference from public metadata: current SHA lastModified before July 2025; historical main heads not independently checked."
+      },
+      {
+        "repository": "meta-llama/Llama-3.1-70B-Instruct",
+        "metadata_url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-70B-Instruct",
+        "metadata": {
+          "id": "meta-llama/Llama-3.1-70B-Instruct",
+          "sha": "1605565b47bb9346c5515c34102e054115b4f98b",
+          "lastModified": "2024-12-15T01:55:33Z",
+          "createdAt": "2024-07-16T16:07:46Z",
+          "gated": "manual"
+        },
+        "historical_mapping_status": "Candidate upstream repository only; archived Turbo API identifier does not establish exact local deployment identity.",
+        "history_status": "Commit history endpoint returned restricted access; no authenticated access attempted.",
+        "july_candidate_sha": "1605565b47bb9346c5515c34102e054115b4f98b",
+        "evidence_status": "Inference from public metadata: current SHA lastModified before July 2025; historical main heads not independently checked."
+      }
+    ],
+    "alias_sources": [
+      "https://docs.together.ai/docs/deprecations",
+      "https://www.together.ai/models/qwen2-5-7b-instruct-turbo"
+    ]
+  },
+  "other_commit_histories": {
+    "BioMistral--BioMistral-7B.commits.json": [
+      {
+        "id": "9a11e1ffa817c211cbb52ee1fb312dc6b61b40a5",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-21T20:53:27.000Z"
+      },
+      {
+        "id": "12395849239aebe865620e25bd798b51c697642b",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-19T15:36:15.000Z"
+      },
+      {
+        "id": "73eda07459b40e5a5386d0a5a40cf78dba661b30",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-19T15:20:48.000Z"
+      },
+      {
+        "id": "4307c0b2336ab44cdd0f44a4579968e379a25aa0",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-19T11:58:46.000Z"
+      },
+      {
+        "id": "6446486a0485cb6d72af8c0935d8a73902f9cf66",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-19T08:22:27.000Z"
+      },
+      {
+        "id": "e7298b35e5460a37b83fb0dc69eae03f46b49275",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-18T13:39:33.000Z"
+      },
+      {
+        "id": "cdfe2d07da3470c59712654aab2bb3161021fd05",
+        "title": "Upload Image+Title.png",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-14T14:06:48.000Z"
+      },
+      {
+        "id": "432fa435c8b11b74d54c4e1947cac1d059302d14",
+        "title": "Upload wordart_blue_m_rectangle.png",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-14T13:55:36.000Z"
+      },
+      {
+        "id": "7ff8dff04f08b939dee987c4fc2b6e3d95a0c386",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "qanastek",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/614c4f067e1c37ffc55c7515/SsGD2dQ-GaMHEmcuDeCky.png"
+          }
+        ],
+        "date": "2024-02-14T12:50:33.000Z"
+      },
+      {
+        "id": "5cb9cdc1be92f5508ebf60c249dff8ea6a07cffd",
+        "title": "Upload 8 files",
+        "message": "",
+        "authors": [
+          {
+            "user": "abazoge",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6384d2dbcafe4e4ac405d187/KjOlBrlISBKQOsQN1vxRd.jpeg"
+          }
+        ],
+        "date": "2024-02-14T11:45:03.000Z"
+      },
+      {
+        "id": "cc86494de99fbb61f7f0aa836b1203f77f73b4ec",
+        "title": "initial commit",
+        "message": "",
+        "authors": [
+          {
+            "user": "abazoge",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6384d2dbcafe4e4ac405d187/KjOlBrlISBKQOsQN1vxRd.jpeg"
+          }
+        ],
+        "date": "2024-02-14T11:33:32.000Z"
+      }
+    ],
+    "deepseek-ai--DeepSeek-R1-Distill-Llama-70B.commits.json": [
+      {
+        "id": "b1c0b44b4369b597ad119a196caf79a9c40e141e",
+        "title": "Update bib info",
+        "message": "",
+        "authors": [
+          {
+            "user": "DeepSeekDDM",
+            "avatar": "/avatars/776d742ef844d46412c03b58e0ec6921.svg"
+          }
+        ],
+        "date": "2025-02-24T03:31:15.000Z"
+      },
+      {
+        "id": "0d6d11a6ea1187363aa7b78543f824fc02e06b14",
+        "title": "Update tokenizer_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-02-09T06:34:20.000Z"
+      },
+      {
+        "id": "008f3f3919bc6605cac0c6cd092aeb97b538c71b",
+        "title": "Update README.md",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-02-01T05:39:15.000Z"
+      },
+      {
+        "id": "1772b078b94935926dcc8715c1afdd04ae447080",
+        "title": "Update README.md",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-26T09:15:21.000Z"
+      },
+      {
+        "id": "b427a01ff5891168e3f283c4365521ed2a624c8d",
+        "title": "Update README.md",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-23T08:45:05.000Z"
+      },
+      {
+        "id": "d0e68d77aec2aba448b7d4d0549f3596fcd095e5",
+        "title": "Update tokenizer_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-22T11:22:08.000Z"
+      },
+      {
+        "id": "a681c705add7c6902ed34dc2ffdabc2b78ff56be",
+        "title": "Update tokenizer_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-22T02:36:19.000Z"
+      },
+      {
+        "id": "0aeb3b76d1dcf4f5d5bae698f58ce4e832241680",
+        "title": "Add generation_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-21T03:53:56.000Z"
+      },
+      {
+        "id": "76f6c0b4c16ec0d06b259bac6e344380d94c86dc",
+        "title": "add library tag for better code snippets and tags (#3)",
+        "message": "\n\n\n- add library tag for better code snippets and tags (9348995613fd18325e5ef024aa42c947a4206ea8)\n\n\nCo-authored-by: Vaibhav Srivastav <reach-vb@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "Chester111",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6398203609f12714ed1935c2/uXgl0LgKnFYjq1Wz39-a6.jpeg"
+          },
+          {
+            "user": "reach-vb",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1655385361868-61b85ce86eb1f2c5e6233736.jpeg"
+          }
+        ],
+        "date": "2025-01-21T01:53:20.000Z"
+      },
+      {
+        "id": "07a264a567ba0863a4ab34fdb3c2b8a54e0bb494",
+        "title": "Release DeepSeek-R1",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T12:28:26.000Z"
+      },
+      {
+        "id": "288e64a6ddb4467a0d802b2a3ea00e2888e5eb84",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T09:51:54.000Z"
+      },
+      {
+        "id": "9ab39d535cf1a8db97f4a59e9e1b5ca5817cbc06",
+        "title": "initial commit",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T09:13:33.000Z"
+      }
+    ],
+    "deepseek-ai--DeepSeek-R1.commits.json": [
+      {
+        "id": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+        "title": "Small fix",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-03-27T04:01:59.000Z"
+      },
+      {
+        "id": "a157fa3d494497a54586a333a23df6c2143e7697",
+        "title": "Update bib info",
+        "message": "",
+        "authors": [
+          {
+            "user": "DeepSeekDDM",
+            "avatar": "/avatars/776d742ef844d46412c03b58e0ec6921.svg"
+          }
+        ],
+        "date": "2025-02-24T03:30:31.000Z"
+      },
+      {
+        "id": "8a58a132790c9935686eb97f042afa8013451c9f",
+        "title": "Update tokenizer_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-02-09T06:34:11.000Z"
+      },
+      {
+        "id": "f7361cd9ff99396dbf6bd644ad846015e59ed4fc",
+        "title": "Update README.md",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-02-01T05:38:55.000Z"
+      },
+      {
+        "id": "5dde110d1a9ee857b90a6710b7138f9130ce6fa0",
+        "title": "Update README.md",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-26T09:15:01.000Z"
+      },
+      {
+        "id": "4dc77d4932316bdaa6f255ee7ad2ea3733a8ca23",
+        "title": "Update README.md",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-23T08:44:46.000Z"
+      },
+      {
+        "id": "cb48aa8cb28c160ec8d853707278e0402c9ad01a",
+        "title": "Update tokenizer_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-22T11:21:42.000Z"
+      },
+      {
+        "id": "7bae4bacd0f64d020364cc43d9560588893e94cc",
+        "title": "Update tokenizer_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-22T02:36:01.000Z"
+      },
+      {
+        "id": "3302ba78c0090838341caf8adfbe1e231308fa95",
+        "title": "Update README.md (#16)",
+        "message": "\n\n\n- Update README.md (66197628819e6921cfdb010421f39f239f51902e)\n\n\nCo-authored-by: Tiezhen WANG <xianbao@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "Chester111",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6398203609f12714ed1935c2/uXgl0LgKnFYjq1Wz39-a6.jpeg"
+          },
+          {
+            "user": "xianbao",
+            "avatar": "/avatars/13da7b6fd3d5a6db1e936fe8beec450b.svg"
+          }
+        ],
+        "date": "2025-01-21T10:15:15.000Z"
+      },
+      {
+        "id": "17e58a0d69c91482404b9233cd8599c69252e4c3",
+        "title": "Tag Model as MIT license (#12)",
+        "message": "\n\n\n- Tag Model as MIT license (3186eda3e40fb9dbe84f8b364ad4ff3ca44bde9c)\n\n\nCo-authored-by: Caleb Fahlgren <cfahlgren1@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "Chester111",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6398203609f12714ed1935c2/uXgl0LgKnFYjq1Wz39-a6.jpeg"
+          },
+          {
+            "user": "cfahlgren1",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/648a374f00f7a3374ee64b99/YPwSOrronoozwHbJchPn3.jpeg"
+          }
+        ],
+        "date": "2025-01-21T08:30:07.000Z"
+      },
+      {
+        "id": "ebc477ae6dc22c217b3b3990effcab0112a67273",
+        "title": "Add generation_config.json",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-21T03:53:22.000Z"
+      },
+      {
+        "id": "5a56bdbde75a16bdfbf3a8e9c852be3dfcfb8eef",
+        "title": "Release DeepSeek-R1",
+        "message": "\n",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T12:26:50.000Z"
+      },
+      {
+        "id": "952e8efc9df2c7cde4d5a46d9d5dcc096e255fef",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:06:27.000Z"
+      },
+      {
+        "id": "ca135fb392cd30c2353056b79902df4b7a47b69f",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:05:32.000Z"
+      },
+      {
+        "id": "1d646a4533de7025bb96a73369a752aafa508238",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:04:28.000Z"
+      },
+      {
+        "id": "2aec6f9785f460da41522216b55aa9c5d88258ec",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:03:23.000Z"
+      },
+      {
+        "id": "0c37a84e9e8d33cbda4dea164f73c6c07b6691ea",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:02:17.000Z"
+      },
+      {
+        "id": "455029ad17e62771c54b984bb7f9af4c83f684c2",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:01:13.000Z"
+      },
+      {
+        "id": "21b6a6fa92b19717d16c23e7e1d20794cbce5222",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T07:00:08.000Z"
+      },
+      {
+        "id": "abf9bba58b8180037a228a50ed7ac547905e415d",
+        "title": "Add files using upload-large-folder tool",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T06:55:26.000Z"
+      },
+      {
+        "id": "e1752191b6e9c885e2533267b617d323cc90e2b5",
+        "title": "initial commit",
+        "message": "",
+        "authors": [
+          {
+            "user": "msr2000",
+            "avatar": "/avatars/e6d4cdef00fda539b7b224754fc988fc.svg"
+          }
+        ],
+        "date": "2025-01-20T03:46:07.000Z"
+      }
+    ],
+    "mistralai--Mistral-7B-Instruct-v0.1.commits.json": [
+      {
+        "id": "ec5deb64f2c6e6fa90c1abf74a91d5c93a9669ca",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "juliendenize",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/771R-4Zint6dIesxzqf3T.jpeg"
+          }
+        ],
+        "date": "2025-07-24T16:44:46.000Z"
+      },
+      {
+        "id": "9db24f5cef284857f21081e53f57925196341ef9",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "juliendenize",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/771R-4Zint6dIesxzqf3T.jpeg"
+          }
+        ],
+        "date": "2025-07-24T16:39:59.000Z"
+      },
+      {
+        "id": "48061930344d3406dd79b7825fe86e1f9bcc2d15",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "juliendenize",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/771R-4Zint6dIesxzqf3T.jpeg"
+          }
+        ],
+        "date": "2025-07-24T16:39:09.000Z"
+      },
+      {
+        "id": "0f4876c9377f68fd4b6a971c77b96a84993754ae",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "juliendenize",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/771R-4Zint6dIesxzqf3T.jpeg"
+          }
+        ],
+        "date": "2025-07-23T12:13:26.000Z"
+      },
+      {
+        "id": "2dcff66eac0c01dc50e4c41eea959968232187fe",
+        "title": "Create tokenizer.model.v1",
+        "message": "",
+        "authors": [
+          {
+            "user": "patrickvonplaten",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1584435275418-5dfcb1aada6d0311fd3d5448.jpeg"
+          }
+        ],
+        "date": "2024-08-22T11:33:25.000Z"
+      },
+      {
+        "id": "b54ee4f4b2dc1d972d2403042aa4da86c30ad7ad",
+        "title": "Add base_model metadata (#124)",
+        "message": "\n\n\n- Add base_model metadata (8ff6bba68ee97a33b8028dace208b6542a7cc322)\n\n\nCo-authored-by: Daniel van Strien <davanstrien@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "pandora-s",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64161701107962562e9b1006/O_GB06ni2O4HuvIkp2hpp.png"
+          },
+          {
+            "user": "davanstrien",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1627505688463-60107b385ac3e86b3ea4fc34.jpeg"
+          }
+        ],
+        "date": "2024-08-19T13:18:10.000Z"
+      },
+      {
+        "id": "1b62ab75912119a486ec97ad3f1a33259882a764",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "pandora-s",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64161701107962562e9b1006/O_GB06ni2O4HuvIkp2hpp.png"
+          }
+        ],
+        "date": "2024-08-05T09:08:08.000Z"
+      },
+      {
+        "id": "b97858eb9fddaba3071dd1b6ec4647bc57862fd8",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "sophiamyang",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6320c05a145cfa4c04cb4359/SC9BuRcmqJjHM-cjjPjg7.jpeg"
+          }
+        ],
+        "date": "2024-07-24T14:04:33.000Z"
+      },
+      {
+        "id": "b54db9339734a22dd2b55531bd8146540729fbb8",
+        "title": "Align tokenizer with mistral-common (#120)",
+        "message": "\n\n\n- Align tokenizer with mistral-common (208592bc7300bdb3fd7122207d256d4ac2d213a3)\n- Update README.md (cabbe4d94e2072b52210a5b177df3840bf584098)\n- Update chat template to handle sys messages (fbe9f22a62b0ebda894b4d7ca21a472b8aed5487)\n\n\nCo-authored-by: Matthew Carrigan <Rocketknight1@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "patrickvonplaten",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1584435275418-5dfcb1aada6d0311fd3d5448.jpeg"
+          },
+          {
+            "user": "Rocketknight1",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660312628256-60ba519750effef3a58beac3.png"
+          }
+        ],
+        "date": "2024-07-03T18:22:31.000Z"
+      },
+      {
+        "id": "86370fc1f5e0aa51b50dcdf6eada80697b570099",
+        "title": "[AUTO] CVST Tokenizer Badger (#119)",
+        "message": "\n\n\n- [AUTO] CVST Tokenizer Badger (f9e32e7af1aa997a45ab0e7a99f2147713c261f6)\n\n\nCo-authored-by: pandora <pandora-s@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "patrickvonplaten",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1584435275418-5dfcb1aada6d0311fd3d5448.jpeg"
+          },
+          {
+            "user": "pandora-s",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64161701107962562e9b1006/O_GB06ni2O4HuvIkp2hpp.png"
+          }
+        ],
+        "date": "2024-06-24T08:24:02.000Z"
+      },
+      {
+        "id": "75c1402cde5b293325776e0d88fc7d575121409c",
+        "title": "Updating chat template, trying to make it match with `mistral_common` (#116)",
+        "message": "\n\n\n- Updating chat template, trying to make it match with `mistral_common` (6ce65b5744837cac716bfdd92f75e36fe4d70e6c)\n\n\nCo-authored-by: pandora <pandora-s@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "patrickvonplaten",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1584435275418-5dfcb1aada6d0311fd3d5448.jpeg"
+          },
+          {
+            "user": "pandora-s",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64161701107962562e9b1006/O_GB06ni2O4HuvIkp2hpp.png"
+          }
+        ],
+        "date": "2024-06-20T15:54:28.000Z"
+      },
+      {
+        "id": "73068f3702d050a2fd5aa2ca1e612e5036429398",
+        "title": "Enable inference & update examples in README to be compatible with soon-to-come ChatWidget (#100)",
+        "message": "\n\n\n- Enable inference & update examples in README to be compatible with soon-to-come ChatWidget (c06360b4f690ee41f1a71a7ce5c3a3c4d21e8f31)\n\n\nCo-authored-by: Simon Brandeis <sbrandeis@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "TimeRobber",
+            "avatar": "/avatars/efa07a179e8ba4de9e56386e513035e8.svg"
+          },
+          {
+            "user": "sbrandeis",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608146735109-5fcfb7c407408029ba3577e2.png"
+          }
+        ],
+        "date": "2024-02-29T11:14:59.000Z"
+      },
+      {
+        "id": "9ab9e76e2b09f9f29ea2d56aa5bd139e4445c59e",
+        "title": "Update README.md",
+        "message": "\n\nRemoving the inference since it has questionable behaviour without the chat templating",
+        "authors": [
+          {
+            "user": "TimeRobber",
+            "avatar": "/avatars/efa07a179e8ba4de9e56386e513035e8.svg"
+          }
+        ],
+        "date": "2023-12-15T01:17:16.000Z"
+      },
+      {
+        "id": "464c09acb438a06c3a5eaafa25b90069df87efca",
+        "title": "Update config.json (#93)",
+        "message": "\n\n\n- Update config.json (4e4526384b8de212ed1cc10df8722b0f67848a02)\n\n\nCo-authored-by: Thomas Wang <TimeRobber@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "timlacroix",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6503364ceda77aafd4a68a48/POQqon4zWQEpFTPzHS4uu.png"
+          },
+          {
+            "user": "TimeRobber",
+            "avatar": "/avatars/efa07a179e8ba4de9e56386e513035e8.svg"
+          }
+        ],
+        "date": "2023-12-14T19:39:22.000Z"
+      },
+      {
+        "id": "ee8473246d86f6ddab03f8b2776f41577386c002",
+        "title": "Update config.json",
+        "message": "\n\nwoops",
+        "authors": [
+          {
+            "user": "timlacroix",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6503364ceda77aafd4a68a48/POQqon4zWQEpFTPzHS4uu.png"
+          }
+        ],
+        "date": "2023-12-14T18:31:03.000Z"
+      },
+      {
+        "id": "2433b68f5a273fe7b239f5cff87bf8d9b6d14dc1",
+        "title": "Widget with chat format (#90)",
+        "message": "\n\n\n- Widget with chat format (872ffe717e75fff3c31db83ebb49a01a39b3c8a4)\n\n\nCo-authored-by: Pedro Cuenca <pcuenq@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "pstock",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/650c993d2751c84306aba92b/uS04hveXAu6CEszCy-8_G.jpeg"
+          },
+          {
+            "user": "pcuenq",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg"
+          }
+        ],
+        "date": "2023-12-12T17:14:03.000Z"
+      },
+      {
+        "id": "2364fc7dd5954a1862950a0c4409f07f2d0de898",
+        "title": "Adding `safetensors` variant of this model (#85)",
+        "message": "\n\n\n- Adding `safetensors` variant of this model (aa25f50a0e92ad05b257cb73b9e7eef006946801)\n\n\nCo-authored-by: Safetensors convertbot <SFconvertbot@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "pstock",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/650c993d2751c84306aba92b/uS04hveXAu6CEszCy-8_G.jpeg"
+          },
+          {
+            "user": "SFconvertbot",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/635fd4cc14657fb8cff2a081/GDkyDwAcuqDBpaOvQgJuq.png"
+          }
+        ],
+        "date": "2023-12-11T19:27:45.000Z"
+      },
+      {
+        "id": "d2953fb360de291c66caf55739473ca4b72eca0b",
+        "title": "Update tokenizer_config.json",
+        "message": "",
+        "authors": [
+          {
+            "user": "pstock",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/650c993d2751c84306aba92b/uS04hveXAu6CEszCy-8_G.jpeg"
+          }
+        ],
+        "date": "2023-12-08T13:08:43.000Z"
+      },
+      {
+        "id": "7ad5799710574ba1c1d953eba3077af582f3a773",
+        "title": "added arxiv",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-10-11T12:31:14.000Z"
+      },
+      {
+        "id": "7961f5aa9b736bf8e364b2e6f201190f97a27931",
+        "title": "Restore chat template (#45)",
+        "message": "\n\n\n- Restore chat template (18fdc1566d7976d984faf4a4541561b20dea186e)\n\n\nCo-authored-by: Matthew Carrigan <Rocketknight1@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          },
+          {
+            "user": "Rocketknight1",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660312628256-60ba519750effef3a58beac3.png"
+          }
+        ],
+        "date": "2023-10-09T11:03:30.000Z"
+      },
+      {
+        "id": "4464348d1fb52c5004dea21217351a78bbf2daf6",
+        "title": "Update tokenizer (#43)",
+        "message": "\n\n\n- update tokenizer (e07e4b84e961faa4f73aa872717edd91fbd8c303)\n- Merge branch 'main' into pr/43 (5e7d80dd74aa548303f9d873318bb4234ad32ffe)\n\n\nCo-authored-by: Lucile Saulnier <SaulLu@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          },
+          {
+            "user": "SaulLu",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1618938489629-60741a2e69a66931a0273f0c.png"
+          }
+        ],
+        "date": "2023-10-09T05:49:57.000Z"
+      },
+      {
+        "id": "54766df6d50e4d3d7ccd66758e5341ba105a6d36",
+        "title": "Fix INST end token (#37)",
+        "message": "\n\n\n- Fix INST end token (63f09cd68ee5a23379619a81c515d60bbfddeb89)\n\n\nCo-authored-by: Tom Dörr <tom-doerr@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          },
+          {
+            "user": "tom-doerr",
+            "avatar": "/avatars/de0a267bd0aa6aaa82050ba6002a122d.svg"
+          }
+        ],
+        "date": "2023-10-06T17:32:50.000Z"
+      },
+      {
+        "id": "3dc28cf29d2edd31a0a7b8f0b21637059815b4d5",
+        "title": "Update inference temperature",
+        "message": "",
+        "authors": [
+          {
+            "user": "lerela",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1658503618672-noauth.jpeg"
+          }
+        ],
+        "date": "2023-10-03T05:24:39.000Z"
+      },
+      {
+        "id": "d635d39671aaceec5ef84b745bc21625b324b7f8",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "arthurmensch",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/645d28525ebf379fd6d9ae41/qVEKQk4gPlumsZE3ZorWG.jpeg"
+          }
+        ],
+        "date": "2023-09-28T16:58:32.000Z"
+      },
+      {
+        "id": "894cc16474743e8f37bbc4f8d73951ee5471dfef",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "arthurmensch",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/645d28525ebf379fd6d9ae41/qVEKQk4gPlumsZE3ZorWG.jpeg"
+          }
+        ],
+        "date": "2023-09-28T16:57:34.000Z"
+      },
+      {
+        "id": "6d7932ef94e2b5409c007b855fbb34229b6d2dc5",
+        "title": "Add chat template (#1)",
+        "message": "\n\n\n- Add chat template (c27393b95279fc0b5fbd6a19f7233fc1cc7d92bb)\n- Add chat template to README (4087039521a9e6e117886f566164b2bcd25bd1e5)\n\n",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-28T16:30:59.000Z"
+      },
+      {
+        "id": "8858a59be710f2d8d6a468845ceaf88a72259a2f",
+        "title": "Update README.md (#14)",
+        "message": "\n\n\n- Update README.md (cc1a6244d494d51a2ac8d9c086de85c740d66cf9)\n\n\nCo-authored-by: Devendra Singh Chaplot <devendrachaplot@users.noreply.huggingface.co>\n",
+        "authors": [
+          {
+            "user": "timlacroix",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6503364ceda77aafd4a68a48/POQqon4zWQEpFTPzHS4uu.png"
+          },
+          {
+            "user": "devendrachaplot",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65143e1c4f08b815c8db57a0/JqkwKiJmLFRkH0NK3L8XH.jpeg"
+          }
+        ],
+        "date": "2023-09-28T10:23:41.000Z"
+      },
+      {
+        "id": "2b962727a90291ab7049acf983dcf508bbc488ad",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          }
+        ],
+        "date": "2023-09-27T16:45:54.000Z"
+      },
+      {
+        "id": "3ff897a78c3a0a5c0d91cd417445e376d2905c6d",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "timlacroix",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6503364ceda77aafd4a68a48/POQqon4zWQEpFTPzHS4uu.png"
+          }
+        ],
+        "date": "2023-09-27T16:45:22.000Z"
+      },
+      {
+        "id": "c132c5a4e041821ad7216c39e9b97d3b877bc6dd",
+        "title": "Update readme",
+        "message": "",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          }
+        ],
+        "date": "2023-09-27T16:38:08.000Z"
+      },
+      {
+        "id": "8c722a05c664aa6161a9b2fbff7fd74cdae6dff3",
+        "title": "add snippet on readme",
+        "message": "",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          }
+        ],
+        "date": "2023-09-27T16:37:23.000Z"
+      },
+      {
+        "id": "c3a8e6132c2c350a3a5a184e7576510eef56647e",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "Bam4d",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661254040723-noauth.png"
+          }
+        ],
+        "date": "2023-09-27T16:29:20.000Z"
+      },
+      {
+        "id": "568093eba66b04f2e999f05be2f7b6f33d346e33",
+        "title": "nit changes to readme",
+        "message": "",
+        "authors": [
+          {
+            "user": "LucileSaulnier",
+            "avatar": "/avatars/27061d9288f0a4e77f0c5034c38e9190.svg"
+          }
+        ],
+        "date": "2023-09-27T16:13:37.000Z"
+      },
+      {
+        "id": "d4a74b6075d67c7c4517c50c60f9f0315918f16d",
+        "title": "Upload folder using huggingface_hub",
+        "message": "",
+        "authors": [
+          {
+            "user": "Bam4d",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661254040723-noauth.png"
+          }
+        ],
+        "date": "2023-09-27T16:12:57.000Z"
+      },
+      {
+        "id": "fcf2678950aa506f882847e279358b6f21b18e13",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-27T14:37:00.000Z"
+      },
+      {
+        "id": "5ecc162e0fc2ca82252724e620a0fb2c60d85707",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-27T14:35:20.000Z"
+      },
+      {
+        "id": "25395bd0cd1a1bcda97393e560bbc6f270c4cb18",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-27T14:33:55.000Z"
+      },
+      {
+        "id": "f94596573c4bfbd6f303fa9733e3e0fbf1b81d28",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-27T14:33:15.000Z"
+      },
+      {
+        "id": "4cf4c8634556718c707478b7402e2bb05139d97d",
+        "title": "Update README.md",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-27T14:32:22.000Z"
+      },
+      {
+        "id": "62ad1c1dd09cbfcea2185b664bb5a1f6b8824f1f",
+        "title": "initial commit",
+        "message": "",
+        "authors": [
+          {
+            "user": "teven",
+            "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858339980-5e67bed6100906368940747b.jpeg"
+          }
+        ],
+        "date": "2023-09-27T14:31:52.000Z"
+      }
+    ]
+  },
+  "mistral_trees": {
+    "0f4876c9377f68fd4b6a971c77b96a84993754ae": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "1541a7f359b555657dcfdbfb17c14d7eeb6b469b",
+        "size": 5656,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f4989f072a7f517d01d479eb1685c6e50e014f88",
+        "size": 571,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "2c5f418036a121b3fd432d1bf2b3c5c9daf59fab",
+        "size": 116,
+        "path": "generation_config.json"
+      },
+      {
+        "type": "file",
+        "oid": "66b0f7a2f509c550c5e49a61d377631a3ce13e41",
+        "size": 9942981696,
+        "lfs": {
+          "oid": "a464228d9c9427bf035cfd5a2e18bf0494d7231bfacc478ec5fc9f57a612d051",
+          "size": 9942981696,
+          "pointerSize": 135
+        },
+        "xetHash": "61177690721b2f410ea0934ea17c9d8485327fd9382912e6232a52a1eaac93cb",
+        "path": "model-00001-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "b1ee2f8bcde820865c661243158650a97c44e1fb",
+        "size": 4540516344,
+        "lfs": {
+          "oid": "5734c77cf2ff6482713d474ee9c8791cd712b59dd36b05d096af5a4cb41f3f02",
+          "size": 4540516344,
+          "pointerSize": 135
+        },
+        "xetHash": "9900aabfc4ea139349b70863a6bb2e27382ae0f9af356e3b428ec21900b1824e",
+        "path": "model-00002-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "1d76bd3b4dd491998e6f67d1a7b181623ebbf7f9",
+        "size": 25125,
+        "path": "model.safetensors.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "b845d6fb10f8d2cbeeab7576f1a62be7e9a6d1d1",
+        "size": 9943028044,
+        "lfs": {
+          "oid": "2f237251ac3ecb3bcbd8978b3eb7b55b5e83c06cd5224b276d2d8462773488c8",
+          "size": 9943028044,
+          "pointerSize": 135
+        },
+        "xetHash": "e959bcfe59e73671fa14876307cf073a9da80b2ab435f4a0caa214c62458f818",
+        "path": "pytorch_model-00001-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "175ee8438e709bedb2f6e5f63e782009eb1ccefb",
+        "size": 5064823659,
+        "lfs": {
+          "oid": "d9e54fbaabfe2c5d00d2a642398c5959c1eb31e9d9d40c80bd5d7c2c4067d3e1",
+          "size": 5064823659,
+          "pointerSize": 135
+        },
+        "xetHash": "c5146c6a6eb003cb8800853d219e2fb8286d142bc57ae8d0de29c227be62a1e8",
+        "path": "pytorch_model-00002-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "520ee2fc9a8659d53be1f9f0a4502c151fc24775",
+        "size": 23950,
+        "path": "pytorch_model.bin.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+        "size": 414,
+        "path": "special_tokens_map.json"
+      },
+      {
+        "type": "file",
+        "oid": "1e9f59c515a01088e1f7f72b68ab99f92d15fb96",
+        "size": 1795188,
+        "path": "tokenizer.json"
+      },
+      {
+        "type": "file",
+        "oid": "8b443ef19c2a19acc3ac64fb9c3db4a72921dff6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 131
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model"
+      },
+      {
+        "type": "file",
+        "oid": "e523e8e1f8d3058a0597ca1ebb6f651e5b3257e6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 130
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model.v1"
+      },
+      {
+        "type": "file",
+        "oid": "f63c0374bad221568938f908e397a38d9f0dfac0",
+        "size": 2103,
+        "path": "tokenizer_config.json"
+      }
+    ],
+    "2dcff66eac0c01dc50e4c41eea959968232187fe": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "998963d19f62e560f5a93e380c3801fb970f4c95",
+        "size": 5627,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f4989f072a7f517d01d479eb1685c6e50e014f88",
+        "size": 571,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "2c5f418036a121b3fd432d1bf2b3c5c9daf59fab",
+        "size": 116,
+        "path": "generation_config.json"
+      },
+      {
+        "type": "file",
+        "oid": "66b0f7a2f509c550c5e49a61d377631a3ce13e41",
+        "size": 9942981696,
+        "lfs": {
+          "oid": "a464228d9c9427bf035cfd5a2e18bf0494d7231bfacc478ec5fc9f57a612d051",
+          "size": 9942981696,
+          "pointerSize": 135
+        },
+        "xetHash": "61177690721b2f410ea0934ea17c9d8485327fd9382912e6232a52a1eaac93cb",
+        "path": "model-00001-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "b1ee2f8bcde820865c661243158650a97c44e1fb",
+        "size": 4540516344,
+        "lfs": {
+          "oid": "5734c77cf2ff6482713d474ee9c8791cd712b59dd36b05d096af5a4cb41f3f02",
+          "size": 4540516344,
+          "pointerSize": 135
+        },
+        "xetHash": "9900aabfc4ea139349b70863a6bb2e27382ae0f9af356e3b428ec21900b1824e",
+        "path": "model-00002-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "1d76bd3b4dd491998e6f67d1a7b181623ebbf7f9",
+        "size": 25125,
+        "path": "model.safetensors.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "b845d6fb10f8d2cbeeab7576f1a62be7e9a6d1d1",
+        "size": 9943028044,
+        "lfs": {
+          "oid": "2f237251ac3ecb3bcbd8978b3eb7b55b5e83c06cd5224b276d2d8462773488c8",
+          "size": 9943028044,
+          "pointerSize": 135
+        },
+        "xetHash": "e959bcfe59e73671fa14876307cf073a9da80b2ab435f4a0caa214c62458f818",
+        "path": "pytorch_model-00001-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "175ee8438e709bedb2f6e5f63e782009eb1ccefb",
+        "size": 5064823659,
+        "lfs": {
+          "oid": "d9e54fbaabfe2c5d00d2a642398c5959c1eb31e9d9d40c80bd5d7c2c4067d3e1",
+          "size": 5064823659,
+          "pointerSize": 135
+        },
+        "xetHash": "c5146c6a6eb003cb8800853d219e2fb8286d142bc57ae8d0de29c227be62a1e8",
+        "path": "pytorch_model-00002-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "520ee2fc9a8659d53be1f9f0a4502c151fc24775",
+        "size": 23950,
+        "path": "pytorch_model.bin.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+        "size": 414,
+        "path": "special_tokens_map.json"
+      },
+      {
+        "type": "file",
+        "oid": "1e9f59c515a01088e1f7f72b68ab99f92d15fb96",
+        "size": 1795188,
+        "path": "tokenizer.json"
+      },
+      {
+        "type": "file",
+        "oid": "8b443ef19c2a19acc3ac64fb9c3db4a72921dff6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 131
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model"
+      },
+      {
+        "type": "file",
+        "oid": "e523e8e1f8d3058a0597ca1ebb6f651e5b3257e6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 130
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model.v1"
+      },
+      {
+        "type": "file",
+        "oid": "f63c0374bad221568938f908e397a38d9f0dfac0",
+        "size": 2103,
+        "path": "tokenizer_config.json"
+      }
+    ],
+    "48061930344d3406dd79b7825fe86e1f9bcc2d15": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "a4468712908d02fffc141d0aa9ab01aa40a31895",
+        "size": 5617,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f4989f072a7f517d01d479eb1685c6e50e014f88",
+        "size": 571,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "2c5f418036a121b3fd432d1bf2b3c5c9daf59fab",
+        "size": 116,
+        "path": "generation_config.json"
+      },
+      {
+        "type": "file",
+        "oid": "66b0f7a2f509c550c5e49a61d377631a3ce13e41",
+        "size": 9942981696,
+        "lfs": {
+          "oid": "a464228d9c9427bf035cfd5a2e18bf0494d7231bfacc478ec5fc9f57a612d051",
+          "size": 9942981696,
+          "pointerSize": 135
+        },
+        "xetHash": "61177690721b2f410ea0934ea17c9d8485327fd9382912e6232a52a1eaac93cb",
+        "path": "model-00001-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "b1ee2f8bcde820865c661243158650a97c44e1fb",
+        "size": 4540516344,
+        "lfs": {
+          "oid": "5734c77cf2ff6482713d474ee9c8791cd712b59dd36b05d096af5a4cb41f3f02",
+          "size": 4540516344,
+          "pointerSize": 135
+        },
+        "xetHash": "9900aabfc4ea139349b70863a6bb2e27382ae0f9af356e3b428ec21900b1824e",
+        "path": "model-00002-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "1d76bd3b4dd491998e6f67d1a7b181623ebbf7f9",
+        "size": 25125,
+        "path": "model.safetensors.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "b845d6fb10f8d2cbeeab7576f1a62be7e9a6d1d1",
+        "size": 9943028044,
+        "lfs": {
+          "oid": "2f237251ac3ecb3bcbd8978b3eb7b55b5e83c06cd5224b276d2d8462773488c8",
+          "size": 9943028044,
+          "pointerSize": 135
+        },
+        "xetHash": "e959bcfe59e73671fa14876307cf073a9da80b2ab435f4a0caa214c62458f818",
+        "path": "pytorch_model-00001-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "175ee8438e709bedb2f6e5f63e782009eb1ccefb",
+        "size": 5064823659,
+        "lfs": {
+          "oid": "d9e54fbaabfe2c5d00d2a642398c5959c1eb31e9d9d40c80bd5d7c2c4067d3e1",
+          "size": 5064823659,
+          "pointerSize": 135
+        },
+        "xetHash": "c5146c6a6eb003cb8800853d219e2fb8286d142bc57ae8d0de29c227be62a1e8",
+        "path": "pytorch_model-00002-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "520ee2fc9a8659d53be1f9f0a4502c151fc24775",
+        "size": 23950,
+        "path": "pytorch_model.bin.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+        "size": 414,
+        "path": "special_tokens_map.json"
+      },
+      {
+        "type": "file",
+        "oid": "1e9f59c515a01088e1f7f72b68ab99f92d15fb96",
+        "size": 1795188,
+        "path": "tokenizer.json"
+      },
+      {
+        "type": "file",
+        "oid": "8b443ef19c2a19acc3ac64fb9c3db4a72921dff6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 131
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model"
+      },
+      {
+        "type": "file",
+        "oid": "e523e8e1f8d3058a0597ca1ebb6f651e5b3257e6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 130
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model.v1"
+      },
+      {
+        "type": "file",
+        "oid": "f63c0374bad221568938f908e397a38d9f0dfac0",
+        "size": 2103,
+        "path": "tokenizer_config.json"
+      }
+    ],
+    "9db24f5cef284857f21081e53f57925196341ef9": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "9464a494d27a355d2f7a60f67f5e64bb949bccbd",
+        "size": 5634,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f4989f072a7f517d01d479eb1685c6e50e014f88",
+        "size": 571,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "2c5f418036a121b3fd432d1bf2b3c5c9daf59fab",
+        "size": 116,
+        "path": "generation_config.json"
+      },
+      {
+        "type": "file",
+        "oid": "66b0f7a2f509c550c5e49a61d377631a3ce13e41",
+        "size": 9942981696,
+        "lfs": {
+          "oid": "a464228d9c9427bf035cfd5a2e18bf0494d7231bfacc478ec5fc9f57a612d051",
+          "size": 9942981696,
+          "pointerSize": 135
+        },
+        "xetHash": "61177690721b2f410ea0934ea17c9d8485327fd9382912e6232a52a1eaac93cb",
+        "path": "model-00001-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "b1ee2f8bcde820865c661243158650a97c44e1fb",
+        "size": 4540516344,
+        "lfs": {
+          "oid": "5734c77cf2ff6482713d474ee9c8791cd712b59dd36b05d096af5a4cb41f3f02",
+          "size": 4540516344,
+          "pointerSize": 135
+        },
+        "xetHash": "9900aabfc4ea139349b70863a6bb2e27382ae0f9af356e3b428ec21900b1824e",
+        "path": "model-00002-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "1d76bd3b4dd491998e6f67d1a7b181623ebbf7f9",
+        "size": 25125,
+        "path": "model.safetensors.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "b845d6fb10f8d2cbeeab7576f1a62be7e9a6d1d1",
+        "size": 9943028044,
+        "lfs": {
+          "oid": "2f237251ac3ecb3bcbd8978b3eb7b55b5e83c06cd5224b276d2d8462773488c8",
+          "size": 9943028044,
+          "pointerSize": 135
+        },
+        "xetHash": "e959bcfe59e73671fa14876307cf073a9da80b2ab435f4a0caa214c62458f818",
+        "path": "pytorch_model-00001-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "175ee8438e709bedb2f6e5f63e782009eb1ccefb",
+        "size": 5064823659,
+        "lfs": {
+          "oid": "d9e54fbaabfe2c5d00d2a642398c5959c1eb31e9d9d40c80bd5d7c2c4067d3e1",
+          "size": 5064823659,
+          "pointerSize": 135
+        },
+        "xetHash": "c5146c6a6eb003cb8800853d219e2fb8286d142bc57ae8d0de29c227be62a1e8",
+        "path": "pytorch_model-00002-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "520ee2fc9a8659d53be1f9f0a4502c151fc24775",
+        "size": 23950,
+        "path": "pytorch_model.bin.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+        "size": 414,
+        "path": "special_tokens_map.json"
+      },
+      {
+        "type": "file",
+        "oid": "1e9f59c515a01088e1f7f72b68ab99f92d15fb96",
+        "size": 1795188,
+        "path": "tokenizer.json"
+      },
+      {
+        "type": "file",
+        "oid": "8b443ef19c2a19acc3ac64fb9c3db4a72921dff6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 131
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model"
+      },
+      {
+        "type": "file",
+        "oid": "e523e8e1f8d3058a0597ca1ebb6f651e5b3257e6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 130
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model.v1"
+      },
+      {
+        "type": "file",
+        "oid": "f63c0374bad221568938f908e397a38d9f0dfac0",
+        "size": 2103,
+        "path": "tokenizer_config.json"
+      }
+    ],
+    "ec5deb64f2c6e6fa90c1abf74a91d5c93a9669ca": [
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "78c816fd5d03355eb2bb95ee0affd0f56c130a79",
+        "size": 5644,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "f4989f072a7f517d01d479eb1685c6e50e014f88",
+        "size": 571,
+        "path": "config.json"
+      },
+      {
+        "type": "file",
+        "oid": "2c5f418036a121b3fd432d1bf2b3c5c9daf59fab",
+        "size": 116,
+        "path": "generation_config.json"
+      },
+      {
+        "type": "file",
+        "oid": "66b0f7a2f509c550c5e49a61d377631a3ce13e41",
+        "size": 9942981696,
+        "lfs": {
+          "oid": "a464228d9c9427bf035cfd5a2e18bf0494d7231bfacc478ec5fc9f57a612d051",
+          "size": 9942981696,
+          "pointerSize": 135
+        },
+        "xetHash": "61177690721b2f410ea0934ea17c9d8485327fd9382912e6232a52a1eaac93cb",
+        "path": "model-00001-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "b1ee2f8bcde820865c661243158650a97c44e1fb",
+        "size": 4540516344,
+        "lfs": {
+          "oid": "5734c77cf2ff6482713d474ee9c8791cd712b59dd36b05d096af5a4cb41f3f02",
+          "size": 4540516344,
+          "pointerSize": 135
+        },
+        "xetHash": "9900aabfc4ea139349b70863a6bb2e27382ae0f9af356e3b428ec21900b1824e",
+        "path": "model-00002-of-00002.safetensors"
+      },
+      {
+        "type": "file",
+        "oid": "1d76bd3b4dd491998e6f67d1a7b181623ebbf7f9",
+        "size": 25125,
+        "path": "model.safetensors.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "b845d6fb10f8d2cbeeab7576f1a62be7e9a6d1d1",
+        "size": 9943028044,
+        "lfs": {
+          "oid": "2f237251ac3ecb3bcbd8978b3eb7b55b5e83c06cd5224b276d2d8462773488c8",
+          "size": 9943028044,
+          "pointerSize": 135
+        },
+        "xetHash": "e959bcfe59e73671fa14876307cf073a9da80b2ab435f4a0caa214c62458f818",
+        "path": "pytorch_model-00001-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "175ee8438e709bedb2f6e5f63e782009eb1ccefb",
+        "size": 5064823659,
+        "lfs": {
+          "oid": "d9e54fbaabfe2c5d00d2a642398c5959c1eb31e9d9d40c80bd5d7c2c4067d3e1",
+          "size": 5064823659,
+          "pointerSize": 135
+        },
+        "xetHash": "c5146c6a6eb003cb8800853d219e2fb8286d142bc57ae8d0de29c227be62a1e8",
+        "path": "pytorch_model-00002-of-00002.bin"
+      },
+      {
+        "type": "file",
+        "oid": "520ee2fc9a8659d53be1f9f0a4502c151fc24775",
+        "size": 23950,
+        "path": "pytorch_model.bin.index.json"
+      },
+      {
+        "type": "file",
+        "oid": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+        "size": 414,
+        "path": "special_tokens_map.json"
+      },
+      {
+        "type": "file",
+        "oid": "1e9f59c515a01088e1f7f72b68ab99f92d15fb96",
+        "size": 1795188,
+        "path": "tokenizer.json"
+      },
+      {
+        "type": "file",
+        "oid": "8b443ef19c2a19acc3ac64fb9c3db4a72921dff6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 131
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model"
+      },
+      {
+        "type": "file",
+        "oid": "e523e8e1f8d3058a0597ca1ebb6f651e5b3257e6",
+        "size": 493443,
+        "lfs": {
+          "oid": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+          "size": 493443,
+          "pointerSize": 130
+        },
+        "xetHash": "1e090c2d2774ea7875da72d682c12600bd69085e9c28674b917a49fe82ccffe2",
+        "path": "tokenizer.model.v1"
+      },
+      {
+        "type": "file",
+        "oid": "f63c0374bad221568938f908e397a38d9f0dfac0",
+        "size": 2103,
+        "path": "tokenizer_config.json"
+      }
+    ]
+  },
+  "mistral_comparison": [
+    {
+      "file": "mistral-tree-0f4876c9377f68fd4b6a971c77b96a84993754ae.json",
+      "changed_paths": [
+        "README.md"
+      ],
+      "non_readme_equal": true,
+      "entry_count": 15
+    },
+    {
+      "file": "mistral-tree-2dcff66eac0c01dc50e4c41eea959968232187fe.json",
+      "changed_paths": [],
+      "non_readme_equal": true,
+      "entry_count": 15
+    },
+    {
+      "file": "mistral-tree-48061930344d3406dd79b7825fe86e1f9bcc2d15.json",
+      "changed_paths": [
+        "README.md"
+      ],
+      "non_readme_equal": true,
+      "entry_count": 15
+    },
+    {
+      "file": "mistral-tree-9db24f5cef284857f21081e53f57925196341ef9.json",
+      "changed_paths": [
+        "README.md"
+      ],
+      "non_readme_equal": true,
+      "entry_count": 15
+    },
+    {
+      "file": "mistral-tree-ec5deb64f2c6e6fa90c1abf74a91d5c93a9669ca.json",
+      "changed_paths": [
+        "README.md"
+      ],
+      "non_readme_equal": true,
+      "entry_count": 15
+    }
+  ]
+}

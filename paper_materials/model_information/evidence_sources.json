@@ -29,7 +29,24 @@
         "Separate DeepSeek-R1 historical identity remains unresolved",
         "OpenMeditron/EPFLiGHT namespace relationship does not establish identical weight revision"
       ]
+    },
+    {
+      "type": "researcher_statement",
+      "confirmed_on": "2026-11-24",
+      "claims": [
+        "Historical open-model max_model_len was set to 8192.",
+        "Open-model downloads took place in July 2025."
+      ],
+      "supersedes": "Earlier statement that the historical context limit was not recovered; confirmation is a researcher statement, not a recovered runtime log."
+    },
+    {
+      "type": "official_repository_history_and_metadata",
+      "retrieved_on": "2026-11-24",
+      "report": "model_revisions_july2025.json",
+      "documentation": "revision_lookup.md",
+      "scope": "Full candidate SHA values, source URLs and explicit evidence levels; does not establish historical deployment identity."
     }
   ],
-  "precedence": "The latest researcher handoff supersedes older inference in local draft reports. Historical uncertainty is retained."
+  "precedence": "The latest researcher handoff supersedes older inference in local draft reports. Historical uncertainty is retained.",
+  "updated_on": "2026-11-24"
 }

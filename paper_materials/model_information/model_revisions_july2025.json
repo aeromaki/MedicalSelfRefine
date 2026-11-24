@@ -1,0 +1,245 @@
+{
+  "retrieved_date": "2026-11-24",
+  "historical_download_month": "2025-07",
+  "status": "date-based reconstruction, not recovered deployment evidence",
+  "models": [
+    {
+      "alias": "deepseek-r1-distill-70b",
+      "candidate_repository": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "july_candidate_sha": "b1c0b44b4369b597ad119a196caf79a9c40e141e",
+      "status": "history_verified_no_july_changes",
+      "commit_date_or_metadata_last_modified_utc": "2025-02-24T03:31:15Z",
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B/commits/main",
+      "note": "Configured repository matches; actual downloaded repository still must match.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "b1c0b44b4369b597ad119a196caf79a9c40e141e",
+          "committed_at_utc": "2025-02-24T03:31:15Z"
+        }
+      ]
+    },
+    {
+      "alias": "deepseek-r1",
+      "candidate_repository": "deepseek-ai/DeepSeek-R1",
+      "july_candidate_sha": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+      "status": "history_verified_no_july_changes",
+      "commit_date_or_metadata_last_modified_utc": "2025-03-27T04:01:59Z",
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1/commits/main",
+      "note": "Historical identity unresolved in existing catalog; do not substitute Distill or R1-0528.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+          "committed_at_utc": "2025-03-27T04:01:59Z"
+        }
+      ]
+    },
+    {
+      "alias": "gpt-4o-mini",
+      "candidate_repository": "",
+      "july_candidate_sha": "",
+      "status": "api_not_applicable",
+      "commit_date_or_metadata_last_modified_utc": "",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+      "note": "Recorded request alias gpt-4o-mini; public snapshot gpt-4o-mini-2024-07-18; historical response model not recovered.",
+      "scope": "historical_results",
+      "candidate_revisions": []
+    },
+    {
+      "alias": "gpt-4o",
+      "candidate_repository": "",
+      "july_candidate_sha": "",
+      "status": "api_not_applicable",
+      "commit_date_or_metadata_last_modified_utc": "",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "note": "Recorded request alias gpt-4o; historical snapshot not inferred from current alias mapping.",
+      "scope": "historical_results",
+      "candidate_revisions": []
+    },
+    {
+      "alias": "huatuogpt-o1-70b",
+      "candidate_repository": "FreedomIntelligence/HuatuoGPT-o1-70B",
+      "july_candidate_sha": "a10f06ad04115c5205da2cf63b2e06b5e9d13ac9",
+      "status": "history_verified_no_july_changes",
+      "commit_date_or_metadata_last_modified_utc": "2024-12-30T02:46:15Z",
+      "source_url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-70B/commits/main",
+      "note": "Configured repository matches; main-download assumption applies.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "a10f06ad04115c5205da2cf63b2e06b5e9d13ac9",
+          "committed_at_utc": "2024-12-30T02:46:15Z"
+        }
+      ]
+    },
+    {
+      "alias": "huatuogpt-o1-8b",
+      "candidate_repository": "FreedomIntelligence/HuatuoGPT-o1-8B",
+      "july_candidate_sha": "afc8b260e5b3dee9233863cf2de3080f3094442a",
+      "status": "history_verified_no_july_changes",
+      "commit_date_or_metadata_last_modified_utc": "2024-12-30T02:45:44Z",
+      "source_url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B/commits/main",
+      "note": "Configured repository matches; main-download assumption applies.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "afc8b260e5b3dee9233863cf2de3080f3094442a",
+          "committed_at_utc": "2024-12-30T02:45:44Z"
+        }
+      ]
+    },
+    {
+      "alias": "llama-3.1-70b",
+      "candidate_repository": "meta-llama/Llama-3.1-70B-Instruct",
+      "july_candidate_sha": "1605565b47bb9346c5515c34102e054115b4f98b",
+      "status": "metadata_inference_history_gated",
+      "commit_date_or_metadata_last_modified_utc": "2024-12-15T01:55:33Z",
+      "source_url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-70B-Instruct",
+      "note": "Upstream candidate only; archived Turbo serving ID does not establish local repository.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "1605565b47bb9346c5515c34102e054115b4f98b",
+          "metadata_last_modified_utc": "2024-12-15T01:55:33Z"
+        }
+      ]
+    },
+    {
+      "alias": "llama-3.1-8b",
+      "candidate_repository": "meta-llama/Llama-3.1-8B-Instruct",
+      "july_candidate_sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "status": "metadata_inference_history_gated",
+      "commit_date_or_metadata_last_modified_utc": "2024-09-25T17:00:57Z",
+      "source_url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct",
+      "note": "Upstream candidate only; archived Turbo serving ID does not establish local repository.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+          "metadata_last_modified_utc": "2024-09-25T17:00:57Z"
+        }
+      ]
+    },
+    {
+      "alias": "meditron3-70b",
+      "candidate_repository": "EPFLiGHT/Meditron3-70B",
+      "july_candidate_sha": "",
+      "status": "history_gated",
+      "commit_date_or_metadata_last_modified_utc": "",
+      "source_url": "https://huggingface.co/api/models/OpenMeditron/Meditron3-70B",
+      "note": "Archived OpenMeditron namespace redirects here; current SHA is from 2026 and excluded.",
+      "scope": "historical_results",
+      "candidate_revisions": []
+    },
+    {
+      "alias": "meditron3-8b",
+      "candidate_repository": "EPFLiGHT/Meditron3-8B",
+      "july_candidate_sha": "",
+      "status": "history_gated",
+      "commit_date_or_metadata_last_modified_utc": "",
+      "source_url": "https://huggingface.co/api/models/OpenMeditron/Meditron3-8B",
+      "note": "Archived OpenMeditron namespace redirects here; current SHA is from 2026 and excluded.",
+      "scope": "historical_results",
+      "candidate_revisions": []
+    },
+    {
+      "alias": "mistral-7b",
+      "candidate_repository": "mistralai/Mistral-7B-Instruct-v0.1",
+      "july_candidate_sha": "",
+      "status": "multiple_snapshots_same_model_files",
+      "commit_date_or_metadata_last_modified_utc": "",
+      "source_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/commits/main",
+      "note": "Five possible July snapshots; four July README-only commits. See README_KO.md and mistral_tree_comparison.json.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "2dcff66eac0c01dc50e4c41eea959968232187fe",
+          "committed_at_utc": "2024-08-22T11:33:25.000Z"
+        },
+        {
+          "sha": "0f4876c9377f68fd4b6a971c77b96a84993754ae",
+          "committed_at_utc": "2025-07-23T12:13:26.000Z"
+        },
+        {
+          "sha": "48061930344d3406dd79b7825fe86e1f9bcc2d15",
+          "committed_at_utc": "2025-07-24T16:39:09.000Z"
+        },
+        {
+          "sha": "9db24f5cef284857f21081e53f57925196341ef9",
+          "committed_at_utc": "2025-07-24T16:39:59.000Z"
+        },
+        {
+          "sha": "ec5deb64f2c6e6fa90c1abf74a91d5c93a9669ca",
+          "committed_at_utc": "2025-07-24T16:44:46.000Z"
+        }
+      ]
+    },
+    {
+      "alias": "qwen2.5-72b",
+      "candidate_repository": "Qwen/Qwen2.5-72B-Instruct",
+      "july_candidate_sha": "495f39366efef23836d0cfae4fbe635880d2be31",
+      "status": "history_verified_upstream_candidate",
+      "commit_date_or_metadata_last_modified_utc": "2025-01-12T02:07:38Z",
+      "source_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/commits/main",
+      "note": "No July commits; archived Turbo serving ID does not establish local repository.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "495f39366efef23836d0cfae4fbe635880d2be31",
+          "committed_at_utc": "2025-01-12T02:07:38Z"
+        }
+      ]
+    },
+    {
+      "alias": "qwen2.5-7b",
+      "candidate_repository": "Qwen/Qwen2.5-7B-Instruct",
+      "july_candidate_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "status": "history_verified_upstream_candidate",
+      "commit_date_or_metadata_last_modified_utc": "2025-01-12T02:10:10Z",
+      "source_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/commits/main",
+      "note": "No July commits; archived Turbo serving ID does not establish local repository.",
+      "scope": "historical_results",
+      "candidate_revisions": [
+        {
+          "sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+          "committed_at_utc": "2025-01-12T02:10:10Z"
+        }
+      ]
+    },
+    {
+      "alias": "biomistral-7b",
+      "candidate_repository": "BioMistral/BioMistral-7B",
+      "july_candidate_sha": "9a11e1ffa817c211cbb52ee1fb312dc6b61b40a5",
+      "status": "extra_config_only_history_verified",
+      "commit_date_or_metadata_last_modified_utc": "2024-02-21T20:53:27Z",
+      "source_url": "https://huggingface.co/BioMistral/BioMistral-7B/commits/main",
+      "note": "Additional config entry; not one of 13 historical result models; no July changes.",
+      "scope": "additional_configuration_only",
+      "candidate_revisions": [
+        {
+          "sha": "9a11e1ffa817c211cbb52ee1fb312dc6b61b40a5",
+          "committed_at_utc": "2024-02-21T20:53:27Z"
+        }
+      ]
+    },
+    {
+      "alias": "deepseek-r1-distill-8b",
+      "candidate_repository": "",
+      "july_candidate_sha": "",
+      "status": "extra_empty_config_entry",
+      "commit_date_or_metadata_last_modified_utc": "",
+      "source_url": "",
+      "note": "Additional config entry is {}; no exact model ID to identify repository without assumption.",
+      "scope": "additional_configuration_only",
+      "candidate_revisions": []
+    }
+  ],
+  "assumptions": [
+    "The researcher reports downloading open models in July 2025.",
+    "Date-based reconstruction assumes a fresh download from the stated repository main branch without a pinned older revision.",
+    "Candidate repository revisions are not recovered runtime/deployment evidence."
+  ],
+  "historical_result_models": 13,
+  "additional_configuration_entries": 2
+}
